@@ -1,0 +1,19 @@
+# MkDocs Build-Output
+site/
+_site/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Lokale Test-Artefakte
+*.log
