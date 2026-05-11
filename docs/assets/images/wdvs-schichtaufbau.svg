@@ -1,0 +1,196 @@
+<svg viewBox="0 0 980 560" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="980" height="560" fill="#fdfdfb"/>
+
+  <!-- Innen-Markierung -->
+  <text x="50" y="180" font-size="15" font-weight="600" fill="#a8442e">← Innen</text>
+  <line x1="40" y1="195" x2="100" y2="195" stroke="#a8442e" stroke-width="1.5"/>
+
+  <!-- Außen-Markierung -->
+  <text x="930" y="180" text-anchor="end" font-size="15" font-weight="600" fill="#1e6091">Außen →</text>
+  <line x1="880" y1="195" x2="940" y2="195" stroke="#1e6091" stroke-width="1.5"/>
+
+  <!-- Schichten -->
+  <!-- 1. Innenputz -->
+  <rect x="120" y="100" width="20" height="280" fill="#ecdcc8" stroke="#7a5a3a"/>
+  <!-- 2. Bestandsmauerwerk -->
+  <rect x="140" y="100" width="180" height="280" fill="#cd9a6a" stroke="#7a5a3a"/>
+  <g fill="#7a5a3a" opacity="0.18">
+    <rect x="155" y="120" width="6" height="32"/>
+    <rect x="170" y="120" width="6" height="32"/>
+    <rect x="185" y="120" width="6" height="32"/>
+    <rect x="200" y="120" width="6" height="32"/>
+    <rect x="215" y="120" width="6" height="32"/>
+    <rect x="230" y="120" width="6" height="32"/>
+    <rect x="245" y="120" width="6" height="32"/>
+    <rect x="260" y="120" width="6" height="32"/>
+    <rect x="275" y="120" width="6" height="32"/>
+    <rect x="290" y="120" width="6" height="32"/>
+    <rect x="305" y="120" width="6" height="32"/>
+    <rect x="155" y="170" width="6" height="32"/>
+    <rect x="170" y="170" width="6" height="32"/>
+    <rect x="185" y="170" width="6" height="32"/>
+    <rect x="200" y="170" width="6" height="32"/>
+    <rect x="215" y="170" width="6" height="32"/>
+    <rect x="230" y="170" width="6" height="32"/>
+    <rect x="245" y="170" width="6" height="32"/>
+    <rect x="260" y="170" width="6" height="32"/>
+    <rect x="275" y="170" width="6" height="32"/>
+    <rect x="290" y="170" width="6" height="32"/>
+    <rect x="305" y="170" width="6" height="32"/>
+    <rect x="155" y="220" width="6" height="32"/>
+    <rect x="170" y="220" width="6" height="32"/>
+    <rect x="185" y="220" width="6" height="32"/>
+    <rect x="200" y="220" width="6" height="32"/>
+    <rect x="215" y="220" width="6" height="32"/>
+    <rect x="230" y="220" width="6" height="32"/>
+    <rect x="245" y="220" width="6" height="32"/>
+    <rect x="260" y="220" width="6" height="32"/>
+    <rect x="275" y="220" width="6" height="32"/>
+    <rect x="290" y="220" width="6" height="32"/>
+    <rect x="305" y="220" width="6" height="32"/>
+    <rect x="155" y="270" width="6" height="32"/>
+    <rect x="170" y="270" width="6" height="32"/>
+    <rect x="185" y="270" width="6" height="32"/>
+    <rect x="200" y="270" width="6" height="32"/>
+    <rect x="215" y="270" width="6" height="32"/>
+    <rect x="230" y="270" width="6" height="32"/>
+    <rect x="245" y="270" width="6" height="32"/>
+    <rect x="260" y="270" width="6" height="32"/>
+    <rect x="275" y="270" width="6" height="32"/>
+    <rect x="290" y="270" width="6" height="32"/>
+    <rect x="305" y="270" width="6" height="32"/>
+    <rect x="155" y="320" width="6" height="32"/>
+    <rect x="170" y="320" width="6" height="32"/>
+    <rect x="185" y="320" width="6" height="32"/>
+    <rect x="200" y="320" width="6" height="32"/>
+    <rect x="215" y="320" width="6" height="32"/>
+    <rect x="230" y="320" width="6" height="32"/>
+    <rect x="245" y="320" width="6" height="32"/>
+    <rect x="260" y="320" width="6" height="32"/>
+    <rect x="275" y="320" width="6" height="32"/>
+    <rect x="290" y="320" width="6" height="32"/>
+    <rect x="305" y="320" width="6" height="32"/>
+  </g>
+
+  <!-- 3. Klebemörtel -->
+  <rect x="320" y="100" width="14" height="280" fill="#a8a8a8" stroke="#555"/>
+  <!-- Klebemörtel-Wellen für "Klebe" -->
+  <g stroke="#666" stroke-width="0.5" fill="none" opacity="0.6">
+    <path d="M323,120 q3,3 6,0 t6,0"/>
+    <path d="M323,180 q3,3 6,0 t6,0"/>
+    <path d="M323,240 q3,3 6,0 t6,0"/>
+    <path d="M323,300 q3,3 6,0 t6,0"/>
+    <path d="M323,360 q3,3 6,0 t6,0"/>
+  </g>
+
+  <!-- 4. Dämmstoff EPS -->
+  <rect x="334" y="100" width="160" height="280" fill="#fff7c8" stroke="#7a5a3a"/>
+  <!-- EPS-Punkte (Polystyrol-Kügelchen-Andeutung) -->
+  <g fill="#dcc760" opacity="0.65">
+    <circle cx="350" cy="125" r="2.5"/><circle cx="370" cy="125" r="2.5"/><circle cx="390" cy="125" r="2.5"/><circle cx="410" cy="125" r="2.5"/><circle cx="430" cy="125" r="2.5"/><circle cx="450" cy="125" r="2.5"/><circle cx="470" cy="125" r="2.5"/>
+    <circle cx="360" cy="145" r="2.5"/><circle cx="380" cy="145" r="2.5"/><circle cx="400" cy="145" r="2.5"/><circle cx="420" cy="145" r="2.5"/><circle cx="440" cy="145" r="2.5"/><circle cx="460" cy="145" r="2.5"/>
+    <circle cx="350" cy="165" r="2.5"/><circle cx="370" cy="165" r="2.5"/><circle cx="390" cy="165" r="2.5"/><circle cx="410" cy="165" r="2.5"/><circle cx="430" cy="165" r="2.5"/><circle cx="450" cy="165" r="2.5"/><circle cx="470" cy="165" r="2.5"/>
+    <circle cx="360" cy="185" r="2.5"/><circle cx="380" cy="185" r="2.5"/><circle cx="400" cy="185" r="2.5"/><circle cx="420" cy="185" r="2.5"/><circle cx="440" cy="185" r="2.5"/><circle cx="460" cy="185" r="2.5"/>
+    <circle cx="350" cy="205" r="2.5"/><circle cx="370" cy="205" r="2.5"/><circle cx="390" cy="205" r="2.5"/><circle cx="410" cy="205" r="2.5"/><circle cx="430" cy="205" r="2.5"/><circle cx="450" cy="205" r="2.5"/><circle cx="470" cy="205" r="2.5"/>
+    <circle cx="360" cy="225" r="2.5"/><circle cx="380" cy="225" r="2.5"/><circle cx="400" cy="225" r="2.5"/><circle cx="420" cy="225" r="2.5"/><circle cx="440" cy="225" r="2.5"/><circle cx="460" cy="225" r="2.5"/>
+    <circle cx="350" cy="245" r="2.5"/><circle cx="370" cy="245" r="2.5"/><circle cx="390" cy="245" r="2.5"/><circle cx="410" cy="245" r="2.5"/><circle cx="430" cy="245" r="2.5"/><circle cx="450" cy="245" r="2.5"/><circle cx="470" cy="245" r="2.5"/>
+    <circle cx="360" cy="265" r="2.5"/><circle cx="380" cy="265" r="2.5"/><circle cx="400" cy="265" r="2.5"/><circle cx="420" cy="265" r="2.5"/><circle cx="440" cy="265" r="2.5"/><circle cx="460" cy="265" r="2.5"/>
+    <circle cx="350" cy="285" r="2.5"/><circle cx="370" cy="285" r="2.5"/><circle cx="390" cy="285" r="2.5"/><circle cx="410" cy="285" r="2.5"/><circle cx="430" cy="285" r="2.5"/><circle cx="450" cy="285" r="2.5"/><circle cx="470" cy="285" r="2.5"/>
+    <circle cx="360" cy="305" r="2.5"/><circle cx="380" cy="305" r="2.5"/><circle cx="400" cy="305" r="2.5"/><circle cx="420" cy="305" r="2.5"/><circle cx="440" cy="305" r="2.5"/><circle cx="460" cy="305" r="2.5"/>
+    <circle cx="350" cy="325" r="2.5"/><circle cx="370" cy="325" r="2.5"/><circle cx="390" cy="325" r="2.5"/><circle cx="410" cy="325" r="2.5"/><circle cx="430" cy="325" r="2.5"/><circle cx="450" cy="325" r="2.5"/><circle cx="470" cy="325" r="2.5"/>
+    <circle cx="360" cy="345" r="2.5"/><circle cx="380" cy="345" r="2.5"/><circle cx="400" cy="345" r="2.5"/><circle cx="420" cy="345" r="2.5"/><circle cx="440" cy="345" r="2.5"/><circle cx="460" cy="345" r="2.5"/>
+  </g>
+
+  <!-- Dübel -->
+  <g fill="#444">
+    <rect x="370" y="160" width="2" height="6"/>
+    <circle cx="371" cy="158" r="3" fill="#666"/>
+    <rect x="430" y="220" width="2" height="6"/>
+    <circle cx="431" cy="218" r="3" fill="#666"/>
+    <rect x="370" y="280" width="2" height="6"/>
+    <circle cx="371" cy="278" r="3" fill="#666"/>
+    <rect x="430" y="340" width="2" height="6"/>
+    <circle cx="431" cy="338" r="3" fill="#666"/>
+  </g>
+
+  <!-- 5. Armierungsmörtel -->
+  <rect x="494" y="100" width="10" height="280" fill="#bdbdbd" stroke="#555"/>
+  <!-- 6. Armierungsgewebe (Linien im Mörtel) -->
+  <g stroke="#2980b9" stroke-width="0.5" opacity="0.85">
+    <line x1="494" y1="115" x2="504" y2="115"/>
+    <line x1="494" y1="125" x2="504" y2="125"/>
+    <line x1="494" y1="135" x2="504" y2="135"/>
+    <line x1="494" y1="145" x2="504" y2="145"/>
+    <line x1="494" y1="155" x2="504" y2="155"/>
+    <line x1="494" y1="165" x2="504" y2="165"/>
+    <line x1="494" y1="175" x2="504" y2="175"/>
+    <line x1="494" y1="185" x2="504" y2="185"/>
+    <line x1="494" y1="195" x2="504" y2="195"/>
+    <line x1="494" y1="205" x2="504" y2="205"/>
+    <line x1="494" y1="215" x2="504" y2="215"/>
+    <line x1="494" y1="225" x2="504" y2="225"/>
+    <line x1="494" y1="235" x2="504" y2="235"/>
+    <line x1="494" y1="245" x2="504" y2="245"/>
+    <line x1="494" y1="255" x2="504" y2="255"/>
+    <line x1="494" y1="265" x2="504" y2="265"/>
+    <line x1="494" y1="275" x2="504" y2="275"/>
+    <line x1="494" y1="285" x2="504" y2="285"/>
+    <line x1="494" y1="295" x2="504" y2="295"/>
+    <line x1="494" y1="305" x2="504" y2="305"/>
+    <line x1="494" y1="315" x2="504" y2="315"/>
+    <line x1="494" y1="325" x2="504" y2="325"/>
+    <line x1="494" y1="335" x2="504" y2="335"/>
+    <line x1="494" y1="345" x2="504" y2="345"/>
+    <line x1="494" y1="355" x2="504" y2="355"/>
+    <line x1="494" y1="365" x2="504" y2="365"/>
+    <line x1="497" y1="105" x2="497" y2="375"/>
+    <line x1="500" y1="105" x2="500" y2="375"/>
+  </g>
+  <!-- 7. Oberputz -->
+  <rect x="504" y="100" width="8" height="280" fill="#e8e0d0" stroke="#555"/>
+  <!-- 8. Anstrich -->
+  <rect x="512" y="100" width="3" height="280" fill="#d4a373" stroke="#555"/>
+
+  <!-- Beschriftungen mit Verbindungslinien -->
+  <!-- 1 Innenputz -->
+  <line x1="130" y1="100" x2="130" y2="80" stroke="#888" stroke-width="0.7"/>
+  <line x1="130" y1="80" x2="180" y2="80" stroke="#888" stroke-width="0.7"/>
+  <text x="185" y="84" font-size="13" fill="#222"><tspan font-weight="600">1</tspan>  Innenputz (Bestand)</text>
+
+  <!-- 2 Bestandsmauerwerk -->
+  <line x1="230" y1="100" x2="230" y2="55" stroke="#888" stroke-width="0.7"/>
+  <line x1="230" y1="55" x2="280" y2="55" stroke="#888" stroke-width="0.7"/>
+  <text x="285" y="59" font-size="13" fill="#222"><tspan font-weight="600">2</tspan>  Bestandsmauerwerk – 36,5 cm Hochlochziegel</text>
+
+  <!-- 3 Klebemörtel -->
+  <line x1="327" y1="100" x2="327" y2="30" stroke="#888" stroke-width="0.7"/>
+  <line x1="327" y1="30" x2="380" y2="30" stroke="#888" stroke-width="0.7"/>
+  <text x="385" y="34" font-size="13" fill="#222"><tspan font-weight="600">3</tspan>  Klebemörtel</text>
+
+  <!-- 4 Dämmstoff -->
+  <line x1="414" y1="380" x2="414" y2="420" stroke="#888" stroke-width="0.7"/>
+  <line x1="414" y1="420" x2="500" y2="420" stroke="#888" stroke-width="0.7"/>
+  <text x="505" y="424" font-size="13" fill="#222"><tspan font-weight="600">4</tspan>  Dämmstoff – z. B. 16 cm EPS, λ = 0,035 W/(m·K)</text>
+
+  <!-- 4a Dübel-Hinweis -->
+  <line x1="431" y1="218" x2="600" y2="218" stroke="#888" stroke-width="0.7" stroke-dasharray="2,2"/>
+  <text x="605" y="222" font-size="12" fill="#444">↑ mechanische Sicherung (Tellerdübel)</text>
+
+  <!-- 5 Armierungsmörtel -->
+  <line x1="499" y1="380" x2="499" y2="450" stroke="#888" stroke-width="0.7"/>
+  <line x1="499" y1="450" x2="600" y2="450" stroke="#888" stroke-width="0.7"/>
+  <text x="605" y="454" font-size="13" fill="#222"><tspan font-weight="600">5+6</tspan>  Armierungsmörtel mit Glasfasergewebe</text>
+
+  <!-- 7 Oberputz -->
+  <line x1="508" y1="100" x2="508" y2="60" stroke="#888" stroke-width="0.7"/>
+  <line x1="508" y1="60" x2="630" y2="60" stroke="#888" stroke-width="0.7"/>
+  <text x="635" y="64" font-size="13" fill="#222"><tspan font-weight="600">7</tspan>  Oberputz (mineralisch / silikat / silikon)</text>
+
+  <!-- 8 Anstrich -->
+  <line x1="513" y1="380" x2="513" y2="480" stroke="#888" stroke-width="0.7"/>
+  <line x1="513" y1="480" x2="600" y2="480" stroke="#888" stroke-width="0.7"/>
+  <text x="605" y="484" font-size="13" fill="#222"><tspan font-weight="600">8</tspan>  Anstrich (optional, witterungsbeständig)</text>
+
+  <!-- Titel unten -->
+  <text x="490" y="535" text-anchor="middle" font-size="14" font-weight="600" fill="#222">Schichtaufbau eines Wärmedämmverbundsystems (WDVS)</text>
+</svg>

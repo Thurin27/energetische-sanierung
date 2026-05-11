@@ -1,0 +1,133 @@
+/* === Diskussion / Reflexion-Komponente === */
+
+.discuss {
+  background: #fef9ed;
+  border: 1px solid #f0d8a5;
+  border-left: 4px solid #d4a017;
+  border-radius: 4px;
+  padding: 1.25rem 1.5rem;
+  margin: 2rem 0 1rem 0;
+}
+
+[data-md-color-scheme="slate"] .discuss {
+  background: rgba(212, 160, 23, 0.07);
+  border-color: rgba(212, 160, 23, 0.4);
+  border-left-color: #e6b733;
+}
+
+.discuss__title {
+  margin: 0 0 0.4rem 0;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #6e4f00;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.discuss__title::before {
+  content: "🤝";
+  font-size: 1.2rem;
+}
+
+[data-md-color-scheme="slate"] .discuss__title {
+  color: #e8c97a;
+}
+
+.discuss__intro {
+  margin: 0 0 1rem 0;
+  font-size: 0.95rem;
+  color: #5a4500;
+  font-style: italic;
+}
+
+[data-md-color-scheme="slate"] .discuss__intro {
+  color: #d8c590;
+}
+
+.discuss__item {
+  background: #fff;
+  border: 1px solid #ecd9a8;
+  border-radius: 4px;
+  padding: 0.85rem 1rem;
+  margin: 0.85rem 0;
+  position: relative;
+}
+
+[data-md-color-scheme="slate"] .discuss__item {
+  background: rgba(255,255,255,0.04);
+  border-color: rgba(212, 160, 23, 0.3);
+}
+
+.discuss__tag {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.18rem 0.55rem;
+  border-radius: 999px;
+  margin-bottom: 0.55rem;
+}
+
+.discuss__item--reflect .discuss__tag {
+  background: #ddeefa;
+  color: #1f4f7d;
+}
+
+.discuss__item--reflect {
+  border-left: 3px solid #4087c0;
+}
+
+[data-md-color-scheme="slate"] .discuss__item--reflect .discuss__tag {
+  background: rgba(64, 135, 192, 0.22);
+  color: #b3d4ed;
+}
+
+[data-md-color-scheme="slate"] .discuss__item--reflect {
+  border-left-color: #6ba2d2;
+}
+
+.discuss__item--debate .discuss__tag {
+  background: #fce6d4;
+  color: #8a3d10;
+}
+
+.discuss__item--debate {
+  border-left: 3px solid #d77e3a;
+}
+
+[data-md-color-scheme="slate"] .discuss__item--debate .discuss__tag {
+  background: rgba(215, 126, 58, 0.22);
+  color: #f0c099;
+}
+
+[data-md-color-scheme="slate"] .discuss__item--debate {
+  border-left-color: #e69558;
+}
+
+.discuss__item p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: #2a2a2a;
+}
+
+[data-md-color-scheme="slate"] .discuss__item p {
+  color: #e8e8e8;
+}
+
+.discuss__item p + p {
+  margin-top: 0.5rem;
+}
+
+.discuss__item .discuss__hint {
+  font-size: 0.85rem;
+  color: #888;
+  font-style: italic;
+  margin-top: 0.4rem;
+}
+
+[data-md-color-scheme="slate"] .discuss__item .discuss__hint {
+  color: #aaa;
+}

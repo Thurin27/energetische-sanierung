@@ -1,0 +1,167 @@
+<svg viewBox="0 0 900 1100" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <!-- Page background -->
+  <rect width="900" height="1100" fill="#fdfdfd" stroke="#888" stroke-width="1"/>
+
+  <!-- Header bar -->
+  <rect x="0" y="0" width="900" height="60" fill="#2D5C20"/>
+  <text x="30" y="38" font-size="22" font-weight="700" fill="#fff">ENERGIEAUSWEIS für Wohngebäude</text>
+  <text x="870" y="38" font-size="13" fill="#cce4c5" text-anchor="end">gemäß §§ 79 ff. GEG (verbrauchsorientiert)</text>
+
+  <!-- "Auszug" Stempel -->
+  <g transform="translate(710,90) rotate(-12)">
+    <rect x="0" y="0" width="160" height="50" fill="none" stroke="#c0392b" stroke-width="3" rx="4"/>
+    <text x="80" y="32" font-size="20" font-weight="700" fill="#c0392b" text-anchor="middle">AUSZUG</text>
+  </g>
+
+  <!-- Section: Gebäude -->
+  <text x="30" y="115" font-size="16" font-weight="700" fill="#2D5C20">1  Angaben zum Gebäude</text>
+  <line x1="30" y1="122" x2="650" y2="122" stroke="#2D5C20" stroke-width="1.5"/>
+
+  <g font-size="13" fill="#222">
+    <!-- Two-column layout -->
+    <text x="30" y="150" font-weight="600">Adresse</text>
+    <text x="220" y="150">Buer-Hassel, 45896 Gelsenkirchen</text>
+
+    <text x="30" y="175" font-weight="600">Gebäudetyp</text>
+    <text x="220" y="175">Einfamilienhaus, freistehend</text>
+
+    <text x="30" y="200" font-weight="600">Baujahr Gebäude</text>
+    <text x="220" y="200">1978</text>
+
+    <text x="30" y="225" font-weight="600">Baujahr Anlagentechnik</text>
+    <text x="220" y="225">2003 (Gas-Niedertemperaturkessel)</text>
+
+    <text x="30" y="250" font-weight="600">Wohnfläche</text>
+    <text x="220" y="250">145 m²</text>
+
+    <text x="30" y="275" font-weight="600">Anzahl Wohneinheiten</text>
+    <text x="220" y="275">1</text>
+
+    <text x="30" y="300" font-weight="600">Wesentliche Energieträger</text>
+    <text x="220" y="300">Erdgas (Heizung + Warmwasser)</text>
+  </g>
+
+  <!-- Section: Verbrauch -->
+  <text x="30" y="345" font-size="16" font-weight="700" fill="#2D5C20">2  Energieverbrauch</text>
+  <line x1="30" y1="352" x2="650" y2="352" stroke="#2D5C20" stroke-width="1.5"/>
+
+  <g font-size="13" fill="#222">
+    <text x="30" y="378" font-weight="600">Erfassungszeitraum</text>
+    <text x="220" y="378">01.01.2022 – 31.12.2024 (3 Jahre)</text>
+
+    <text x="30" y="403" font-weight="600">Erdgasverbrauch (Mittel)</text>
+    <text x="220" y="403">28 000 kWh/a</text>
+
+    <text x="30" y="428" font-weight="600">davon Warmwasser (geschätzt)</text>
+    <text x="290" y="428">ca. 2 500 kWh/a</text>
+
+    <text x="30" y="453" font-weight="600">Endenergieverbrauchskennwert</text>
+    <text x="290" y="453" font-weight="700">193 kWh/(m²·a)</text>
+
+    <text x="30" y="478" font-weight="600">Witterungsbereinigung</text>
+    <text x="220" y="478">durchgeführt nach DIN V 18599</text>
+  </g>
+
+  <!-- Section: Klassentacho -->
+  <text x="30" y="525" font-size="16" font-weight="700" fill="#2D5C20">3  Energieeffizienzklasse</text>
+  <line x1="30" y1="532" x2="850" y2="532" stroke="#2D5C20" stroke-width="1.5"/>
+
+  <!-- Bandtacho -->
+  <g transform="translate(50,560)">
+    <!-- Skala -->
+    <text x="-15" y="20" font-size="12" font-weight="700" fill="#222" text-anchor="middle">0</text>
+    <text x="800" y="20" font-size="12" font-weight="700" fill="#222" text-anchor="middle">≥ 250</text>
+    <text x="395" y="20" font-size="11" fill="#222" text-anchor="middle">Endenergieverbrauchskennwert in kWh/(m²·a)</text>
+
+    <!-- Klasse-Bänder, jeweils 100px breit -->
+    <g>
+      <!-- A+: 0-30 -->
+      <rect x="0" y="30" width="96" height="40" fill="#1a9641"/>
+      <text x="48" y="55" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">A+</text>
+      <text x="48" y="86" font-size="10" fill="#222" text-anchor="middle">≤ 30</text>
+
+      <!-- A: 30-50 -->
+      <rect x="96" y="30" width="64" height="40" fill="#52b052"/>
+      <text x="128" y="55" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">A</text>
+      <text x="128" y="86" font-size="10" fill="#222" text-anchor="middle">≤ 50</text>
+
+      <!-- B: 50-75 -->
+      <rect x="160" y="30" width="80" height="40" fill="#a6d96a"/>
+      <text x="200" y="55" font-size="14" font-weight="700" fill="#222" text-anchor="middle">B</text>
+      <text x="200" y="86" font-size="10" fill="#222" text-anchor="middle">≤ 75</text>
+
+      <!-- C: 75-100 -->
+      <rect x="240" y="30" width="80" height="40" fill="#d9ef8b"/>
+      <text x="280" y="55" font-size="14" font-weight="700" fill="#222" text-anchor="middle">C</text>
+      <text x="280" y="86" font-size="10" fill="#222" text-anchor="middle">≤ 100</text>
+
+      <!-- D: 100-130 -->
+      <rect x="320" y="30" width="96" height="40" fill="#fee08b"/>
+      <text x="368" y="55" font-size="14" font-weight="700" fill="#222" text-anchor="middle">D</text>
+      <text x="368" y="86" font-size="10" fill="#222" text-anchor="middle">≤ 130</text>
+
+      <!-- E: 130-160 -->
+      <rect x="416" y="30" width="96" height="40" fill="#fdae61"/>
+      <text x="464" y="55" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">E</text>
+      <text x="464" y="86" font-size="10" fill="#222" text-anchor="middle">≤ 160</text>
+
+      <!-- F: 160-200 -->
+      <rect x="512" y="30" width="128" height="40" fill="#f46d43"/>
+      <text x="576" y="55" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">F</text>
+      <text x="576" y="86" font-size="10" fill="#222" text-anchor="middle">≤ 200</text>
+
+      <!-- G: 200-250 -->
+      <rect x="640" y="30" width="100" height="40" fill="#d73027"/>
+      <text x="690" y="55" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">G</text>
+      <text x="690" y="86" font-size="10" fill="#222" text-anchor="middle">≤ 250</text>
+
+      <!-- H: > 250 -->
+      <rect x="740" y="30" width="60" height="40" fill="#a50026"/>
+      <text x="770" y="55" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">H</text>
+      <text x="770" y="86" font-size="10" fill="#222" text-anchor="middle">&gt; 250</text>
+    </g>
+
+    <!-- Pfeil auf 193 kWh/m²a → liegt bei x ≈ 593 -->
+    <!-- Skala: 0 bei x=0, 250 bei x=800 → 193 bei 193/250*800 = 617 -->
+    <g transform="translate(617,30)">
+      <polygon points="0,-22 -10,-44 10,-44" fill="#222"/>
+      <text x="0" y="-50" font-size="13" font-weight="700" fill="#222" text-anchor="middle">193</text>
+    </g>
+
+    <!-- Ergebnisbox -->
+    <g transform="translate(0,110)">
+      <rect x="0" y="0" width="800" height="50" fill="#fff7e6" stroke="#f46d43" stroke-width="2"/>
+      <text x="20" y="30" font-size="15" font-weight="700" fill="#222">Klasse F</text>
+      <text x="120" y="30" font-size="13" fill="#222">– hoher Verbrauch, energetische Modernisierung dringend empfohlen</text>
+    </g>
+  </g>
+
+  <!-- Section: CO2 -->
+  <text x="30" y="780" font-size="16" font-weight="700" fill="#2D5C20">4  CO₂-Emissionen</text>
+  <line x1="30" y1="787" x2="650" y2="787" stroke="#2D5C20" stroke-width="1.5"/>
+
+  <g font-size="13" fill="#222">
+    <text x="30" y="813" font-weight="600">CO₂-Emissionsfaktor Erdgas</text>
+    <text x="320" y="813">240 g CO₂ / kWh Endenergie</text>
+
+    <text x="30" y="838" font-weight="600">Jährliche CO₂-Emissionen</text>
+    <text x="320" y="838" font-weight="700">≈ 6,7 t CO₂ pro Jahr</text>
+
+    <text x="30" y="863" font-weight="600">Spezifisch (pro m² Wohnfläche)</text>
+    <text x="320" y="863">≈ 46 kg CO₂ / (m²·a)</text>
+  </g>
+
+  <!-- Section: Hinweise -->
+  <text x="30" y="910" font-size="16" font-weight="700" fill="#2D5C20">5  Hinweise</text>
+  <line x1="30" y1="917" x2="650" y2="917" stroke="#2D5C20" stroke-width="1.5"/>
+  <g font-size="12" fill="#444">
+    <text x="30" y="940">Verbrauchsausweis nach §§ 79–82 GEG. Aussagekraft begrenzt durch individuelles Nutzerverhalten.</text>
+    <text x="30" y="958">Empfohlen: Erstellung eines individuellen Sanierungsfahrplans (iSFP).</text>
+    <text x="30" y="976">Modernisierungsempfehlungen: Außenwanddämmung; Erneuerung Heizungsanlage (65 % EE-Anteil GEG 2024).</text>
+  </g>
+
+  <!-- Footer -->
+  <line x1="30" y1="1020" x2="870" y2="1020" stroke="#aaa" stroke-width="0.5"/>
+  <text x="30" y="1042" font-size="11" fill="#666">Aussteller: Beispiel Energieberatung GmbH · Gültig bis 31.12.2034</text>
+  <text x="30" y="1062" font-size="11" fill="#666">Registriernummer: NW-2025-XXXXXX-XX (anonymisierter Auszug für Unterrichtszwecke)</text>
+</svg>
