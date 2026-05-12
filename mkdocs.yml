@@ -74,7 +74,6 @@ nav:
   - Start: index.md
   - Lernsituation:
       - Familie Schmitt: lernsituation/familie-schmitt.md
-      - Unterlagen: lernsituation/unterlagen.md
   - Grundlagen:
       - Wärmedurchgang: grundlagen/waermedurchgang.md
       - Wärmebrücken: grundlagen/waermebruecken.md

@@ -46,3 +46,7 @@ Am Ende von Phase 1 könnt ihr:
 - die jährliche Energie- und CO₂-Einsparung einer Sanierungsmaßnahme berechnen
 - die Wirtschaftlichkeit einer Maßnahme inklusive Förderung bewerten
 - eine begründete Sanierungsempfehlung formulieren
+
+---
+
+→ Weiter zur [Lernsituation: Familie Schmitt](lernsituation/familie-schmitt.md)

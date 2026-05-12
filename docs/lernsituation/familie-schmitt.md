@@ -162,3 +162,7 @@ Wer diesen Fall sicher rechnen, bewerten und beraten kann, kann es auch bei den 
 </div>
 
 </div>
+
+---
+
+→ Weiter zu den [Grundlagen: Wärmedurchgang](../grundlagen/waermedurchgang.md)
