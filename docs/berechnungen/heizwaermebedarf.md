@@ -325,3 +325,12 @@ Das ist genau der Bogen, den eine Beratung schlägt: **Vom U-Wert über den Heiz
 </div>
 
 </div>
+
+---
+
+Jetzt kennen wir die jährliche Energieeinsparung in kWh. Im nächsten Schritt übersetzen wir sie in Euro und CO₂.
+
+→ Weiter zu den [Energiepreisen](../wirtschaft-oekologie/energiepreise.md)
+
+??? info "Ergebnis prüfen"
+    Zur Kontrolle der Handrechnung dienen die [Online-Rechner](../rechner/index.md).

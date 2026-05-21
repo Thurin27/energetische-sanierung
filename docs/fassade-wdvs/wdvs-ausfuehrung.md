@@ -33,3 +33,7 @@ Die fachgerechte Ausführung entscheidet über die langfristige Funktion des Sys
 ## Bezug zur Lernsituation
 
 Das EFH der Schmitts hat etwa 145 m² Fassadenfläche. Bei einem realistischen Tagespensum eines Zweimann-Trupps von 25–30 m² für Klebung und Dübelung (plus weitere Tage für Armierung und Putz) ergibt sich der oben genannte Zeitbedarf. Das ist relevant für die Bauablaufplanung – die Familie kann während der Arbeiten weiter im Haus wohnen.
+
+---
+
+↩ Zurück zu [WDVS – Materialien](wdvs-materialien.md) · weiter im roten Faden geht es dort mit [Transmissionswärmeverluste](../berechnungen/transmissionsverluste.md).

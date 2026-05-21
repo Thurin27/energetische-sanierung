@@ -282,4 +282,7 @@ Der Transmissionsverlust ist nur ein Teil des Gesamtverlusts eines Gebäudes –
 
 </div>
 
-→ Weiter zu [Heizwärmebedarf](heizwaermebedarf.md)
+→ Weiter zum [Heizwärmebedarf](heizwaermebedarf.md): von der Leistung zur Jahresenergie
+
+??? info "Zur Vertiefung"
+    Die U-Werte der einzelnen Bauteile stammen aus [U-Wert von Bauteilen](u-wert-bauteil.md).

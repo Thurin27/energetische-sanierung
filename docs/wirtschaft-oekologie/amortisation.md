@@ -223,4 +223,4 @@ Die Schmitts erfüllen keine dieser Bedingungen — Klasse F im Bestand, geplant
 
 </div>
 
-→ Weiter zu [CO₂-Bilanz](co2-bilanz.md)
+→ Weiter zur [CO₂-Bilanz](co2-bilanz.md): die ökologische Seite der Maßnahme

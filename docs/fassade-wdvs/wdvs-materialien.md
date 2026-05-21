@@ -342,4 +342,10 @@ Für die Schmitts gilt:
 
 </div>
 
-→ Weiter zu [WDVS – Ausführung](wdvs-ausfuehrung.md)
+Aufbau und Dämmstoffe des Systems sind damit geklärt. Wie ein WDVS Schritt für Schritt angebracht wird und worauf es an Sockel, Laibung und Dachanschluss ankommt, vertiefen wir bei Bedarf später. Jetzt rechnen wir die Wirkung der Maßnahme auf das ganze Haus.
+
+→ Weiter zu [Transmissionswärmeverluste](../berechnungen/transmissionsverluste.md)
+
+??? info "Optionale Vertiefung (bautechnisch)"
+    - [WDVS – Ausführung](wdvs-ausfuehrung.md): Arbeitsschritte auf der Baustelle
+    - [WDVS – Konstruktive Details](wdvs-details.md): Sockel, Fensterlaibung, Dachanschluss

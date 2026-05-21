@@ -29,3 +29,7 @@ Die meisten WDVS-Schäden entstehen nicht in der Fläche, sondern an den **Ansch
 ## Bezug zur Lernsituation
 
 Das EFH der Schmitts hat zwei kritische Stellen, die im Detail betrachtet werden müssen: die **Heizkörpernischen** unter den Fenstern (sehr dünne Wandstärke, hier wäre theoretisch Kerndämmung sinnvoll, praktisch wird das WDVS einfach übergeführt) und die **Rollladenkästen** in den Schlafzimmerfenstern, die als deutliche Wärmebrücken wirken und bei der Sanierung mitgedämmt werden sollten.
+
+---
+
+↩ Zurück zu [WDVS – Materialien](wdvs-materialien.md) · weiter im roten Faden geht es dort mit [Transmissionswärmeverluste](../berechnungen/transmissionsverluste.md).

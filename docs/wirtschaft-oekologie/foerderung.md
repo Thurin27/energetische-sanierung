@@ -191,4 +191,4 @@ Zusätzlich zum BAFA-Zuschuss kann ein **Ergänzungskredit der KfW (Programme 35
 
 </div>
 
-→ Weiter zu [Amortisation](amortisation.md)
+→ Weiter zur [Amortisation](amortisation.md)

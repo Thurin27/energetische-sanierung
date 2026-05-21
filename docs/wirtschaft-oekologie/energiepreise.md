@@ -194,4 +194,4 @@ c) Bei einem fiktiven CO₂-Preis von 120 €/t (möglich Mitte der 2030er): Wie
 
 </div>
 
-→ Weiter zu [Förderung](foerderung.md)
+→ Weiter zur [Förderung](foerderung.md): Wie sinkt die Investition durch Zuschüsse?

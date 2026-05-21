@@ -247,4 +247,14 @@ Die WDVS-Sanierung ist aus jeder dieser Perspektiven sinnvoll — und die **rich
 !!! quote ""
     *„Lassen Sie uns über die neue Heizung reden, **nachdem** wir über Ihre Außenwände gesprochen haben."*
 
-→ Damit ist Phase 1 inhaltlich abgeschlossen. In Phase 2 weiten wir den Blick auf Dach, Fenster, Keller und Anlagentechnik aus.
+→ Damit ist Phase 1 inhaltlich abgeschlossen.
+
+---
+
+Damit sind alle drei Leitfragen beantwortet — bauphysikalisch, wirtschaftlich und ökologisch. Der Kreis schließt sich dort, wo er begann: bei der Empfehlung für Familie Schmitt.
+
+→ Zurück zur [Lernsituation: die Empfehlung für Familie Schmitt](../lernsituation/familie-schmitt.md#eure-rolle)
+
+??? info "Weiterführend"
+    - Alles noch einmal rechnen: [Aufgabensammlung Schmitt](../berechnungen/aufgaben-schmitt.md)
+    - Den Blick weiten auf Dach, Fenster, Keller, Anlagentechnik: [Phase 2 – Übersicht](../phase2/uebersicht.md)

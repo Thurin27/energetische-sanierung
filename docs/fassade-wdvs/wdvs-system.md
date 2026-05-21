@@ -171,3 +171,7 @@ In dieser Doppelstunde haben wir das System grundsätzlich verstanden und seinen
 - **Konstruktive Details**: Sockel, Fensterlaibungen, Dachanschluss → [WDVS Details](wdvs-details.md)
 - **Wirtschaftlichkeit**: Kosten, Förderung, Amortisation → [Amortisation](../wirtschaft-oekologie/amortisation.md)
 - **Ökologische Bewertung**: graue Energie, CO₂-Bilanz → [CO₂-Bilanz](../wirtschaft-oekologie/co2-bilanz.md)
+
+---
+
+→ Weiter zu [WDVS – Materialien](wdvs-materialien.md): Welcher Dämmstoff passt zu welcher Situation?
