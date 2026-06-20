@@ -79,26 +79,29 @@ nav:
       - Wärmebrücken: grundlagen/waermebruecken.md
       - Feuchteschutz: grundlagen/feuchteschutz.md
       - GEG-Anforderungen: grundlagen/geg-anforderungen.md
-  - Fassade WDVS:
-      - System: fassade-wdvs/wdvs-system.md
-      - Materialien: fassade-wdvs/wdvs-materialien.md
-      - Ausführung: fassade-wdvs/wdvs-ausfuehrung.md
-      - Konstruktive Details: fassade-wdvs/wdvs-details.md
-  - Berechnungen:
-      - U-Wert von Bauteilen: berechnungen/u-wert-bauteil.md
-      - Transmissionsverluste: berechnungen/transmissionsverluste.md
-      - Heizwärmebedarf: berechnungen/heizwaermebedarf.md
-      - Aufgabensammlung Schmitt: berechnungen/aufgaben-schmitt.md
-  - Wirtschaft & Ökologie:
-      - Energiepreise: wirtschaft-oekologie/energiepreise.md
-      - Förderung: wirtschaft-oekologie/foerderung.md
-      - Amortisation: wirtschaft-oekologie/amortisation.md
-      - CO₂-Bilanz: wirtschaft-oekologie/co2-bilanz.md
-  - Online-Rechner: rechner/index.md
-  - Phase 2:
+  - Phase 1 – Außenwand:
+      - Fassade WDVS:
+          - System: fassade-wdvs/wdvs-system.md
+          - Materialien: fassade-wdvs/wdvs-materialien.md
+          - Ausführung: fassade-wdvs/wdvs-ausfuehrung.md
+          - Konstruktive Details: fassade-wdvs/wdvs-details.md
+      - Berechnungen:
+          - U-Wert von Bauteilen: berechnungen/u-wert-bauteil.md
+          - Transmissionsverluste: berechnungen/transmissionsverluste.md
+          - Heizwärmebedarf: berechnungen/heizwaermebedarf.md
+      - Wirtschaft & Ökologie:
+          - Energiepreise: wirtschaft-oekologie/energiepreise.md
+          - Förderung: wirtschaft-oekologie/foerderung.md
+          - Amortisation: wirtschaft-oekologie/amortisation.md
+          - CO₂-Bilanz: wirtschaft-oekologie/co2-bilanz.md
+  - Phase 2 – Weitere Bauteile:
       - Übersicht: phase2/uebersicht.md
       - Dachsanierung: phase2/dach.md
       - Fenster: phase2/fenster.md
       - Keller & Bodenplatte: phase2/keller.md
       - Anlagentechnik: phase2/anlagentechnik.md
       - Verfahrensvergleich: phase2/vergleich.md
+  - Werkzeuge:
+      - Formelsammlung: berechnungen/formelsammlung.md
+      - Aufgabensammlung Schmitt: berechnungen/aufgaben-schmitt.md
+      - Online-Rechner: rechner/index.md
