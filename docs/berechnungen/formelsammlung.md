@@ -16,6 +16,19 @@ Diese Seite bündelt alle Formeln und Standardwerte aus dem Kurs an einer Stelle
 | Wärmedurchgangskoeffizient | $U = \dfrac{1}{R_{ges}}$ | W/(m²·K) |
 | Momentaner Wärmestrom durch ein Bauteil | $\dot{Q} = U \cdot A \cdot \Delta T$ | W |
 
+**Formelzeichen:**
+
+- $d$ – Schichtdicke in m
+- $\lambda$ – Wärmeleitfähigkeit des Schichtmaterials in W/(m·K)
+- $R$ – Wärmedurchlasswiderstand einer einzelnen Schicht in m²·K/W
+- $R_{si}$, $R_{se}$ – Wärmeübergangswiderstand innen bzw. außen (Standardwerte siehe Tabelle unten)
+- $R_i$ – Wärmedurchlasswiderstand der einzelnen Bauteilschichten (innen nach außen)
+- $R_{ges}$ – Gesamtwiderstand des Bauteils
+- $U$ – Wärmedurchgangskoeffizient des Bauteils
+- $\dot{Q}$ – momentaner Wärmestrom in Watt
+- $A$ – Bauteilfläche in m²
+- $\Delta T = \vartheta_i - \vartheta_e$ – Temperaturdifferenz zwischen innen und außen in K
+
 **Wärmeübergangswiderstände nach DIN EN ISO 6946:**
 
 | Lage | $R_{si}$ (innen) | $R_{se}$ (außen) |
@@ -32,6 +45,17 @@ Diese Seite bündelt alle Formeln und Standardwerte aus dem Kurs an einer Stelle
 |---|---|---|
 | Transmissionswärmeverlustkoeffizient | $H_T = \sum (U_i \cdot A_i \cdot F_{x,i}) + \Delta U_{WB} \cdot A_{\text{Hülle}}$ | W/K |
 | Jahres-Transmissionsverlust | $Q_T = H_T \cdot G_t \cdot 24 / 1000$ | kWh/a |
+
+**Formelzeichen:**
+
+- $H_T$ – Transmissionswärmeverlustkoeffizient des Gebäudes (Verlust pro Kelvin Temperaturdifferenz)
+- $U_i$ – U-Wert des einzelnen Bauteils $i$ in W/(m²·K)
+- $A_i$ – Fläche des Bauteils $i$ in m²
+- $F_{x,i}$ – Temperaturkorrekturfaktor des Bauteils $i$ (siehe Tabelle)
+- $\Delta U_{WB}$ – pauschaler Wärmebrückenzuschlag in W/(m²·K) (siehe Tabelle)
+- $A_{\text{Hülle}}$ – gesamte wärmeübertragende Hüllfläche in m²
+- $Q_T$ – jährlicher Transmissionswärmebedarf in kWh/a
+- $G_t$ – Heizgradtagzahl der Klimaregion in Kd/a (siehe Tabelle)
 
 **Temperaturkorrekturfaktoren $F_x$:**
 
@@ -69,10 +93,27 @@ Diese Seite bündelt alle Formeln und Standardwerte aus dem Kurs an einer Stelle
 | Lüftungsverluste (Faustformel) | $Q_V = 0{,}34 \cdot n \cdot V_L \cdot G_t \cdot 24 / 1000$ | kWh/a |
 | Solare Gewinne (vereinfacht) | $Q_S = q_S \cdot A_N$ | kWh/a |
 | Innere Gewinne (vereinfacht) | $Q_I = q_I \cdot A_N$ | kWh/a |
+| Warmwasserbedarf (vereinfacht) | $Q_{WW} = q_{WW} \cdot A_N$ | kWh/a |
 | Heizwärmebedarf | $Q_H = (Q_T + Q_V) - \eta_g \cdot (Q_S + Q_I)$ | kWh/a |
 | Endenergiebedarf (Heizung + Warmwasser) | $E_{End} = \dfrac{Q_H}{\eta_a} + Q_{WW}$ | kWh/a |
 
-Erläuterungen: $V_L$ = beheiztes Luftvolumen ≈ 0,8 · Gebäudevolumen, $n$ = Luftwechselrate (typ. 0,5 1/h), $A_N$ = Nutzfläche (vereinfacht Wohnfläche), $\eta_g$ = Gewinnausnutzungsgrad (typ. 0,90–0,95), $\eta_a$ = Anlagenwirkungsgrad.
+**Formelzeichen:**
+
+- $Q_V$ – jährliche Lüftungsverluste in kWh/a
+- $Q_S$ – jährliche solare Gewinne in kWh/a
+- $Q_I$ – jährliche innere Gewinne (Personen, Geräte) in kWh/a
+- $Q_{WW}$ – jährlicher Warmwasserbedarf in kWh/a
+- $Q_H$ – Heizwärmebedarf in kWh/a (Wärme, die ins Haus geliefert werden muss)
+- $Q_T$ – Transmissionsverluste (Berechnung siehe Abschnitt zuvor)
+- $E_{End}$ – Endenergiebedarf in kWh/a (Energie, die als Brennstoff oder Strom eingekauft wird)
+- $n$ – Luftwechselrate in 1/h (typisch 0,5 bei Bewohnung mit Fensterlüftung)
+- $V_L$ – beheiztes Luftvolumen ≈ 0,8 · Bruttogebäudevolumen in m³
+- $A_N$ – Nutzfläche in m² (vereinfacht: Wohnfläche)
+- $q_S$, $q_I$, $q_{WW}$ – spezifische Gewinne bzw. Bedarf pro m² Nutzfläche (Tabelle unten)
+- $\eta_g$ – Gewinnausnutzungsgrad (Anteil der Gewinne, der die Heizung tatsächlich entlastet; typ. 0,90–0,95)
+- $\eta_a$ – Anlagenwirkungsgrad bzw. Jahresarbeitszahl der Wärmeerzeugung (Tabelle unten)
+- $G_t$ – Heizgradtagzahl (siehe oben)
+- $0{,}34$ – volumetrische Wärmekapazität der Luft in Wh/(m³·K)
 
 **Spezifische Werte für die vereinfachte Bilanz:**
 
@@ -80,7 +121,7 @@ Erläuterungen: $V_L$ = beheiztes Luftvolumen ≈ 0,8 · Gebäudevolumen, $n$ = 
 |---|---|
 | spez. solare Gewinne $q_S$ | 15 kWh/(m²·a) |
 | spez. interne Gewinne $q_I$ | 22 kWh/(m²·a) |
-| spez. Warmwasserbedarf $q_{WW}$ | 12–18 kWh/(m²·a) |
+| spez. Warmwasserbedarf $q_{WW}$ | 12 – 18 kWh/(m²·a) |
 
 **Anlagenwirkungsgrade $\eta_a$ bzw. Jahresarbeitszahl JAZ:**
 
@@ -101,9 +142,21 @@ Erläuterungen: $V_L$ = beheiztes Luftvolumen ≈ 0,8 · Gebäudevolumen, $n$ = 
 | Jährliche Energiekosten-Einsparung | $\Delta K = \Delta E_{End} \cdot p_{Energie}$ | €/a |
 | Investition nach Förderung | $I_{netto} = I_{brutto} \cdot (1 - f_{\text{Förder}})$ | € |
 | Statische Amortisationszeit | $T_{stat} = \dfrac{I_{netto}}{\Delta K}$ | a |
-| Dynamische Amortisationszeit | $T_{dyn}$: $\sum_{t=1}^{T} \dfrac{\Delta K \cdot (1+p)^{t-1}}{(1+i)^t} = I_{netto}$ | a |
+| Dynamische Amortisationszeit | $T_{dyn}$: $\sum_{t=1}^{T_{dyn}} \dfrac{\Delta K \cdot (1+p)^{t-1}}{(1+i)^t} = I_{netto}$ | a |
 
-mit $p$ = Energiepreissteigerung pro Jahr, $i$ = Kapitalzinssatz, $f_{\text{Förder}}$ = Förderquote.
+**Formelzeichen:**
+
+- $\Delta K$ – jährliche Einsparung an Energiekosten in €/a
+- $\Delta E_{End}$ – durch die Sanierung eingesparte Endenergie in kWh/a (Differenz Bestand → saniert)
+- $p_{Energie}$ – Energiepreis in €/kWh
+- $I_{brutto}$ – Bruttoinvestition (Auftragssumme) in €
+- $I_{netto}$ – Eigenanteil nach Abzug der Förderung in €
+- $f_{\text{Förder}}$ – Förderquote als Dezimalwert (z. B. 0,20 für 20 %)
+- $T_{stat}$ – statische Amortisationszeit in Jahren (ohne Zins und Preissteigerung)
+- $T_{dyn}$ – dynamische Amortisationszeit in Jahren (mit Energiepreissteigerung und Kapitalzins)
+- $p$ – jährliche Energiepreissteigerung als Dezimalwert
+- $i$ – Kapitalzinssatz als Dezimalwert
+- $t$ – Laufindex der Jahre
 
 **Aktuelle Energiepreise (Endkundentarife, Anfang 2026):**
 
@@ -119,9 +172,9 @@ mit $p$ = Energiepreissteigerung pro Jahr, $i$ = Kapitalzinssatz, $f_{\text{För
 
 | Maßnahme | Grundförderung | mit iSFP-Bonus |
 |---|---|---|
-| Außenwand U ≤ 0,20 W/(m²·K) | 15 % | 20 % |
-| Dachdämmung U ≤ 0,14 W/(m²·K) | 15 % | 20 % |
-| Fenster U_W ≤ 0,95 W/(m²·K) | 15 % | 20 % |
+| Außenwand $U \leq 0{,}20$ W/(m²·K) | 15 % | 20 % |
+| Dachdämmung $U \leq 0{,}14$ W/(m²·K) | 15 % | 20 % |
+| Fenster $U_W \leq 0{,}95$ W/(m²·K) | 15 % | 20 % |
 | Wärmepumpe (im Bestand) | 30 % + Klimabonus | bis 70 % |
 
 Höchstgrenze förderfähige Kosten: 60 000 €/WE (mit iSFP), sonst 30 000 €/WE.
@@ -133,8 +186,19 @@ Höchstgrenze förderfähige Kosten: 60 000 €/WE (mit iSFP), sonst 30 000 €/
 | Größe | Formel | Einheit |
 |---|---|---|
 | Jährliche CO₂-Einsparung | $\Delta m_{CO_2} = \Delta E_{End} \cdot f_{CO_2}$ | kg CO₂/a |
-| Energetische Amortisation graue Energie | $T_{ener} = \dfrac{Q_{grau}}{\Delta E_{End,a}}$ | a |
+| Energetische Amortisation graue Energie | $T_{ener} = \dfrac{Q_{grau}}{\Delta E_{End}}$ | a |
 | Lebenszyklus-CO₂-Saldo | $\Delta m_{LZ} = \Delta m_{CO_2} \cdot T_{Leben} - m_{grau}$ | kg CO₂ |
+
+**Formelzeichen:**
+
+- $\Delta m_{CO_2}$ – jährliche CO₂-Einsparung in kg CO₂/a
+- $\Delta E_{End}$ – jährlich eingesparte Endenergie in kWh/a
+- $f_{CO_2}$ – CO₂-Emissionsfaktor des verdrängten Energieträgers in kg CO₂/kWh (Tabelle unten)
+- $Q_{grau}$ – graue Energie der Sanierungsmaßnahme in kWh (kumulierter Energieaufwand für Herstellung, Transport, Montage)
+- $T_{ener}$ – energetische Amortisationszeit der grauen Energie in Jahren
+- $m_{grau}$ – mit der Herstellung verbundene CO₂-Emissionen in kg CO₂ (siehe Tabelle für Dämmstoffe)
+- $T_{Leben}$ – Lebensdauer der Maßnahme in Jahren (typ. 30 – 40 Jahre für WDVS)
+- $\Delta m_{LZ}$ – Lebenszyklus-CO₂-Saldo: Differenz zwischen vermiedenen Emissionen über die Lebensdauer und Herstellungs-Emissionen
 
 **CO₂-Emissionsfaktoren $f_{CO_2}$ (ProBas / Umweltbundesamt, inkl. Vorkette):**
 

@@ -70,40 +70,40 @@ Jedes Bauteilkapitel folgt einer einheitlichen Struktur: kurze bauphysikalische 
 <div class="quiz" data-title="Verständnis-Check Phase 2 – Einstieg">
 
 <div class="quiz__q" data-correct="3">
-<p class="quiz__qtext">Vor der WDVS-Sanierung war die Außenwand mit 140 W/K der größte Einzelposten im $H_T$. Welches Bauteil ist jetzt – nach Phase 1 – der größte Einzelposten?</p>
+<p class="quiz__qtext">Vor der WDVS-Sanierung war die Außenwand mit 140 W/K der größte Einzelposten im \(H_T\). Welches Bauteil ist jetzt – nach Phase 1 – der größte Einzelposten?</p>
 <ul class="quiz__opts">
 <li>Das Dach mit 38,7 W/K.</li>
 <li>Die Fenster mit 37,5 W/K.</li>
 <li>Die Kellerdecke mit 52,3 W/K.</li>
 <li>Die Wärmebrücken mit 38,4 W/K.</li>
 </ul>
-<div class="quiz__explain">Die <strong>Kellerdecke</strong> ist mit 52,3 W/K der größte Einzelposten. Sie hat zwar nur $U = 1{,}1$ – wesentlich besser als die Fenster (2,8) –, aber mit 95 m² eine sehr große Fläche, die den Verlust treibt. Wichtig: Der Temperaturkorrekturfaktor $F_x = 0{,}5$ ist bereits eingerechnet. Ohne $F_x$ wäre der Beitrag doppelt so groß.</div>
+<div class="quiz__explain">Die <strong>Kellerdecke</strong> ist mit 52,3 W/K der größte Einzelposten. Sie hat zwar nur \(U = 1{,}1\) – wesentlich besser als die Fenster (2,8) –, aber mit 95 m² eine sehr große Fläche, die den Verlust treibt. Wichtig: Der Temperaturkorrekturfaktor \(F_x = 0{,}5\) ist bereits eingerechnet. Ohne \(F_x\) wäre der Beitrag doppelt so groß.</div>
 </div>
 
 <div class="quiz__q" data-correct="2">
-<p class="quiz__qtext">Trotz nur 13,4 m² Fläche tragen die Fenster mit 37,5 W/K fast so viel zum $H_T$ bei wie das gesamte Dach mit 121 m² Fläche. Was ist der Grund?</p>
+<p class="quiz__qtext">Trotz nur 13,4 m² Fläche tragen die Fenster mit 37,5 W/K fast so viel zum \(H_T\) bei wie das gesamte Dach mit 121 m² Fläche. Was ist der Grund?</p>
 <ul class="quiz__opts">
-<li>Fenster werden über $F_x = 1{,}0$ stärker gewichtet als andere Bauteile.</li>
-<li>Der $U$-Wert der Fenster ($U = 2{,}80$) ist fast neunmal so hoch wie der des Dachs ($U = 0{,}32$).</li>
+<li>Fenster werden über \(F_x = 1{,}0\) stärker gewichtet als andere Bauteile.</li>
+<li>Der \(U\)-Wert der Fenster (\(U = 2{,}80\)) ist fast neunmal so hoch wie der des Dachs (\(U = 0{,}32\)).</li>
 <li>Fenster verlieren Wärme zusätzlich über Lüftung und Undichtigkeiten, die in den 37,5 W/K mitgerechnet sind.</li>
 <li>Fenster sind nach Süden ausgerichtet und verlieren deshalb mehr Wärme.</li>
 </ul>
-<div class="quiz__explain">$U \cdot A$ ist das, was zählt. Bei Fenstern ist $U$ sehr hoch, weil Glas und Rahmen schlechte Dämmer sind – $U = 2{,}80$ ist typisch für 2-fach-Verglasung der frühen 1990er. Pro Quadratmeter verlieren Fenster fast neunmal so viel Wärme wie ein gedämmtes Dach. Lüftungsverluste werden separat in $Q_V$ erfasst, $F_x$ ist für alle Bauteile zur Außenluft gleich (1,0), die Himmelsrichtung spielt für den Transmissionsverlust keine Rolle.</div>
+<div class="quiz__explain">\(U \cdot A\) ist das, was zählt. Bei Fenstern ist \(U\) sehr hoch, weil Glas und Rahmen schlechte Dämmer sind – \(U = 2{,}80\) ist typisch für 2-fach-Verglasung der frühen 1990er. Pro Quadratmeter verlieren Fenster fast neunmal so viel Wärme wie ein gedämmtes Dach. Lüftungsverluste werden separat in \(Q_V\) erfasst, \(F_x\) ist für alle Bauteile zur Außenluft gleich (1,0), die Himmelsrichtung spielt für den Transmissionsverlust keine Rolle.</div>
 </div>
 
 <div class="quiz__q" data-correct="2">
-<p class="quiz__qtext">Warum reicht es bei einer ganzheitlichen Sanierung nicht, einfach jede Maßnahme nach absteigender Höhe ihres $H_T$-Beitrags abzuarbeiten?</p>
+<p class="quiz__qtext">Warum reicht es bei einer ganzheitlichen Sanierung nicht, einfach jede Maßnahme nach absteigender Höhe ihres \(H_T\)-Beitrags abzuarbeiten?</p>
 <ul class="quiz__opts">
 <li>Weil das GEG bestimmte Reihenfolgen vorschreibt.</li>
 <li>Weil neben dem Wärmeverlust auch Kosten, Förderung, baulicher Aufwand, gegenseitige Abhängigkeiten und der Wärmepumpen-Standard berücksichtigt werden müssen.</li>
-<li>Weil $H_T$ sich nach jeder Maßnahme verändert und nicht mehr aussagekräftig ist.</li>
+<li>Weil \(H_T\) sich nach jeder Maßnahme verändert und nicht mehr aussagekräftig ist.</li>
 <li>Weil die Kellerdecke immer als Letztes saniert werden sollte.</li>
 </ul>
-<div class="quiz__explain">Die reine $H_T$-Reduktion ist ein Kriterium, aber nicht das einzige. <strong>Kosten pro eingespartem kWh</strong> sind oft entscheidender, ebenso wie <strong>Förderbedingungen</strong> (welche Maßnahmen werden bezuschusst?), <strong>baulicher Zusammenhang</strong> (Fenstertausch beeinflusst die Laibungsdämmung, Heizungstausch braucht eine gut gedämmte Hülle), und der <strong>Wärmepumpen-Vorbedingung</strong>: Damit eine Wärmepumpe wirtschaftlich läuft, muss die Hülle ein bestimmtes Niveau erreichen. Genau dieses Abwägen ist die Lernarbeit von Phase 2.</div>
+<div class="quiz__explain">Die reine \(H_T\)-Reduktion ist ein Kriterium, aber nicht das einzige. <strong>Kosten pro eingespartem kWh</strong> sind oft entscheidender, ebenso wie <strong>Förderbedingungen</strong> (welche Maßnahmen werden bezuschusst?), <strong>baulicher Zusammenhang</strong> (Fenstertausch beeinflusst die Laibungsdämmung, Heizungstausch braucht eine gut gedämmte Hülle), und der <strong>Wärmepumpen-Vorbedingung</strong>: Damit eine Wärmepumpe wirtschaftlich läuft, muss die Hülle ein bestimmtes Niveau erreichen. Genau dieses Abwägen ist die Lernarbeit von Phase 2.</div>
 </div>
 
 <div class="quiz__q" data-correct="1">
-<p class="quiz__qtext">In Phase 1 habt ihr jede Berechnung von $\lambda$ bis CO₂-Bilanz ausführlich hergeleitet. Was ändert sich daran in Phase 2?</p>
+<p class="quiz__qtext">In Phase 1 habt ihr jede Berechnung von \(\lambda\) bis CO₂-Bilanz ausführlich hergeleitet. Was ändert sich daran in Phase 2?</p>
 <ul class="quiz__opts">
 <li>Die Bauphysik wird als bekannt vorausgesetzt; ihr arbeitet mit der Formelsammlung und konzentriert euch auf Verfahrensentscheidungen.</li>
 <li>Berechnungen entfallen in Phase 2 vollständig; es geht nur noch um qualitative Bewertung.</li>
@@ -121,7 +121,7 @@ Jedes Bauteilkapitel folgt einer einheitlichen Struktur: kurze bauphysikalische 
 
 <div class="discuss__item discuss__item--reflect">
 <span class="discuss__tag">Reflexion</span>
-<p>Wenn ihr nur das Endergebnis aus der $H_T$-Tabelle oben anschaut – Kellerdecke 26 %, Dach und Fenster und Wärmebrücken je 19 %, Außenwand 14 %, Haustür 4 % – welche Reihenfolge würdet ihr <em>spontan</em> für die nächsten Sanierungsschritte vorschlagen? Notiert eure Antwort, wir vergleichen sie am Ende der Phase 2 mit dem, was nach Verfahrensvergleich übrig bleibt.</p>
+<p>Wenn ihr nur das Endergebnis aus der \(H_T\)-Tabelle oben anschaut – Kellerdecke 26 %, Dach und Fenster und Wärmebrücken je 19 %, Außenwand 14 %, Haustür 4 % – welche Reihenfolge würdet ihr <em>spontan</em> für die nächsten Sanierungsschritte vorschlagen? Notiert eure Antwort, wir vergleichen sie am Ende der Phase 2 mit dem, was nach Verfahrensvergleich übrig bleibt.</p>
 </div>
 
 <div class="discuss__item discuss__item--debate">
@@ -132,7 +132,7 @@ Jedes Bauteilkapitel folgt einer einheitlichen Struktur: kurze bauphysikalische 
 
 <div class="discuss__item discuss__item--debate">
 <span class="discuss__tag">Diskussion</span>
-<p>Die Fenster der Schmitts haben $U = 2{,}80$ W/(m²·K) – ein für die frühen 1990er typischer Wert, aber heute weit unter dem Stand der Technik (moderne 3-fach-Verglasung erreicht $U_W = 0{,}80$). Trotzdem ist der Gesamtbeitrag der Fenster zum $H_T$ „nur" 18,6 %. Wann ist ein Fenstertausch im konkreten Beratungsgespräch trotzdem eine sehr starke Empfehlung, auch wenn der absolute Energiebeitrag begrenzt ist?</p>
+<p>Die Fenster der Schmitts haben \(U = 2{,}80\) W/(m²·K) – ein für die frühen 1990er typischer Wert, aber heute weit unter dem Stand der Technik (moderne 3-fach-Verglasung erreicht \(U_W = 0{,}80\)). Trotzdem ist der Gesamtbeitrag der Fenster zum \(H_T\) „nur" 18,6 %. Wann ist ein Fenstertausch im konkreten Beratungsgespräch trotzdem eine sehr starke Empfehlung, auch wenn der absolute Energiebeitrag begrenzt ist?</p>
 <p class="discuss__hint">Komfort (Kaltluft, Strahlungstemperatur), Schallschutz (besonders bei verkehrsbelasteten Lagen), Werterhalt, Sicherheit (RC-Klassen), Schimmelvermeidung an Laibungen, Energiepreis-Resilienz. Außerdem: Fenster sind oft <em>der</em> sichtbare Bauteilwechsel, der dem Eigentümer das Sanierungsgefühl gibt – ein wichtiger psychologischer Aspekt in Beratungen.</p>
 </div>
 

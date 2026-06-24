@@ -250,25 +250,25 @@ In der Beratung Schmitt wäre der ehrliche Vorschlag: **Variante A ohne BAFA-Fö
 </div>
 
 <div class="quiz__q" data-correct="2">
-<p class="quiz__qtext">Bei einem Dach mit $U_{Bestand} = 0{,}40$ W/(m²·K) wird eine zusätzliche Untersparrendämmung mit 12 cm Mineralwolle ($\lambda = 0{,}035$) angebracht. Wie hoch ist der neue $U$-Wert (gerundet)?</p>
+<p class="quiz__qtext">Bei einem Dach mit \(U_{Bestand} = 0{,}40\) W/(m²·K) wird eine zusätzliche Untersparrendämmung mit 12 cm Mineralwolle (\(\lambda = 0{,}035\)) angebracht. Wie hoch ist der neue \(U\)-Wert (gerundet)?</p>
 <ul class="quiz__opts">
 <li>0,11 W/(m²·K)</li>
 <li>0,17 W/(m²·K)</li>
 <li>0,22 W/(m²·K)</li>
 <li>0,30 W/(m²·K)</li>
 </ul>
-<div class="quiz__explain">$R_{Bestand} = 1/0{,}40 = 2{,}50$ m²·K/W. $R_{zusatz} = 0{,}12 / 0{,}035 \approx 3{,}43$ m²·K/W. $R_{neu} = 2{,}50 + 3{,}43 = 5{,}93$. $U_{neu} = 1/5{,}93 \approx 0{,}17$ W/(m²·K). Das ist GEG-konform ($\leq 0{,}24$), aber nicht BAFA-förderfähig ($> 0{,}14$).</div>
+<div class="quiz__explain">\(R_{Bestand} = 1/0{,}40 = 2{,}50\) m²·K/W. \(R_{zusatz} = 0{,}12 / 0{,}035 \approx 3{,}43\) m²·K/W. \(R_{neu} = 2{,}50 + 3{,}43 = 5{,}93\). \(U_{neu} = 1/5{,}93 \approx 0{,}17\) W/(m²·K). Das ist GEG-konform (\(\leq 0{,}24\)), aber nicht BAFA-förderfähig (\(> 0{,}14\)).</div>
 </div>
 
 <div class="quiz__q" data-correct="3">
 <p class="quiz__qtext">Was ist die wichtigste Eigenschaft eines Dämmstoffs für den <strong>sommerlichen Hitzeschutz</strong> eines bewohnten Dachgeschosses?</p>
 <ul class="quiz__opts">
-<li>möglichst niedriger $\lambda$-Wert</li>
+<li>möglichst niedriger \(\lambda\)-Wert</li>
 <li>möglichst geringe Rohdichte</li>
 <li>möglichst hohe spezifische Wärmespeicherkapazität (Phasenverschiebung)</li>
 <li>möglichst niedrige Brandklasse</li>
 </ul>
-<div class="quiz__explain">Der $\lambda$-Wert beschreibt den Winter-Wärmeschutz. Für den Sommer entscheidend ist die <strong>Phasenverschiebung</strong> – wie lange die Hitze braucht, um durch die Dämmung zu wandern. Diese hängt von der spezifischen Wärmespeicherkapazität und der Rohdichte ab. <strong>Holzfaser</strong> hat mit ca. 2 100 J/(kg·K) eine etwa zweieinhalbmal so hohe Speicherkapazität wie Mineralwolle und erreicht damit Phasenverschiebungen von 10–12 h, während Mineralwolle bei 5–6 h liegt.</div>
+<div class="quiz__explain">Der \(\lambda\)-Wert beschreibt den Winter-Wärmeschutz. Für den Sommer entscheidend ist die <strong>Phasenverschiebung</strong> – wie lange die Hitze braucht, um durch die Dämmung zu wandern. Diese hängt von der spezifischen Wärmespeicherkapazität und der Rohdichte ab. <strong>Holzfaser</strong> hat mit ca. 2 100 J/(kg·K) eine etwa zweieinhalbmal so hohe Speicherkapazität wie Mineralwolle und erreicht damit Phasenverschiebungen von 10–12 h, während Mineralwolle bei 5–6 h liegt.</div>
 </div>
 
 <div class="quiz__q" data-correct="1">

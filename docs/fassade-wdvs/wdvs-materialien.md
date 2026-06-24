@@ -285,14 +285,14 @@ Für die Schmitts gilt:
 </div>
 
 <div class="quiz__q" data-correct="1">
-<p class="quiz__qtext">Eine Wand soll auf $U = 0{,}20$ W/(m²·K) gedämmt werden. Mit welchem Material wird die Aufbaudicke am geringsten?</p>
+<p class="quiz__qtext">Eine Wand soll auf \(U = 0{,}20\) W/(m²·K) gedämmt werden. Mit welchem Material wird die Aufbaudicke am geringsten?</p>
 <ul class="quiz__opts">
 <li>Resol mit λ = 0,024</li>
 <li>EPS grau mit λ = 0,032</li>
 <li>Mineralwolle mit λ = 0,035</li>
 <li>Holzfaser mit λ = 0,040</li>
 </ul>
-<div class="quiz__explain">Über $d = \lambda / U$ ergibt sich die nötige Dämmstärke: Resol benötigt etwa 12 cm, EPS grau etwa 16 cm, Mineralwolle etwa 18 cm, Holzfaser etwa 20 cm. **Resol ist der schlankste Aufbau** – darum kommt es zum Einsatz, wenn die Aufbautiefe begrenzt ist (z.&nbsp;B. Grenzabstand, knapper Dachüberstand).</div>
+<div class="quiz__explain">Über \(d = \lambda / U\) ergibt sich die nötige Dämmstärke: Resol benötigt etwa 12 cm, EPS grau etwa 16 cm, Mineralwolle etwa 18 cm, Holzfaser etwa 20 cm. **Resol ist der schlankste Aufbau** – darum kommt es zum Einsatz, wenn die Aufbautiefe begrenzt ist (z.&nbsp;B. Grenzabstand, knapper Dachüberstand).</div>
 </div>
 
 <div class="quiz__q" data-correct="2">
