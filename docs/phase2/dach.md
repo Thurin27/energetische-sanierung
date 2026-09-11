@@ -4,8 +4,20 @@ Das Dach von Familie Schmitt steht jetzt im Fokus: $A = 121$ m², $U = 0{,}32$ W
 
 Anders als bei der Außenwand habt ihr beim Dach nicht **ein** Standardverfahren, sondern **drei konkurrierende**: Aufsparren-, Zwischensparren- und Untersparrendämmung. Welches passt zur Ausgangssituation der Schmitts? Welches schafft das BAFA-Niveau ($U \leq 0{,}14$)? Und lohnt sich die Maßnahme überhaupt – wirtschaftlich und vor dem Hintergrund, dass das Dach schon einmal gedämmt wurde?
 
+!!! info "Euer Arbeitsauftrag"
+    Ihr seid die Beraterinnen und Berater für das Bauteil **Dach** der Familie Schmitt. Am Ende der Arbeitsphase präsentiert ihr den anderen Gruppen:
+
+    1. **Ausgangslage** – warum ist dieses Bauteil für die Schmitts relevant? Wie groß ist sein Anteil am Wärmeverlust?
+    2. **Verfahrensvarianten** – welche Sanierungsansätze kommen infrage? Wo liegen deren Vor- und Nachteile?
+    3. **Berechnung** – für zwei bis drei Varianten die U-Werte, die Reduktion des $H_T$ und die jährliche Endenergie-, Kosten- und CO₂-Einsparung.
+    4. **Wirtschaftlichkeit** – Investition, Förderung, Amortisation für jede Variante.
+    5. **Eure begründete Empfehlung** – welche Variante würdet ihr Familie Schmitt vorschlagen und warum? Welche Argumente sind für euch entscheidend?
+    6. **Einordnung im Gesamtvergleich** – wie priorisiert ihr diese Maßnahme im Vergleich zu den anderen Phase-2-Bauteilen?
+
+    Die anderen Gruppen wissen zum Zeitpunkt eurer Präsentation *nicht*, was ihr herausgefunden habt. Eure Aufgabe ist, ihnen die entscheidenden Erkenntnisse in etwa 10 Minuten nachvollziehbar zu vermitteln.
+
 !!! abstract "Lernziele"
-    Nach diesem Kapitel könnt ihr
+    Am Ende dieser Arbeit könnt ihr
 
     - die drei Hauptverfahren der Dachdämmung mit ihren Vor- und Nachteilen benennen,
     - eine Verfahrensauswahl anhand der bauseits gegebenen Randbedingungen begründen,
@@ -59,7 +71,7 @@ Die Standardlösung im Bestand: Dämmmaterial – meist Mineralwolle-Klemmfilz o
 
 **Vorteile:**
 
-- die Dacheindeckung bleibt unangetastet – Sanierung "von innen"
+- die Dacheindeckung bleibt unangetastet – Sanierung „von innen"
 - bewährte Materialien (Mineralwolle, Holzfaser, Zellulose) mit langjähriger Erfahrung
 - in Eigenleistung machbar, wenn Dachausbau ohnehin ansteht
 - bezahlbar: 80–180 €/m² je nach Material und Ausführung
@@ -125,36 +137,32 @@ In der Praxis sind Bauschäden im Dach fast immer Dampfdiffusionsschäden, nicht
 
 **Sommerlicher Hitzeschutz** wird in der DIN 4108-2 mit dem solaren Eintragskennwert $S$ bemessen. Vereinfacht gilt: Phasenverschiebung > 10 Stunden und Amplitudendämpfung > 10 sind anzustreben. Holzfaser erreicht beides leichter als Mineralwolle, weil sie eine deutlich höhere spezifische Wärmekapazität hat (ca. 2 100 J/(kg·K) gegen 840 J/(kg·K) bei Mineralwolle, beides bei ähnlicher Rohdichte).
 
-## Dachsanierung bei Familie Schmitt
+## Ausgangsdaten Familie Schmitt
 
-Ausgangsdaten:
+Zusammengefasst, was ihr über den Bestand wisst:
 
-- $A_{Dach} = 121$ m², Dachneigung 38°, Sparrenhöhe geschätzt 18 cm
-- $U_{Bestand} = 0{,}32$ W/(m²·K), wahrscheinlich 16 cm Mineralwolle zwischen den Sparren (1990er-Sanierung)
-- aktuelle Dacheindeckung ca. 25 Jahre alt – gut, aber nicht neu
-- Dachgeschoss bewohnt (Schlaf-/Kinderzimmer), Drempelhöhe 1,30 m
-- BAFA-Förderniveau: $U \leq 0{,}14$ W/(m²·K)
-- GEG-Höchstwert (saniert): $U \leq 0{,}24$ W/(m²·K)
+- **Dachfläche**: $A = 121$ m², Dachneigung 38°, Sparrenhöhe geschätzt 18 cm
+- **Bestand-U-Wert**: $U_{Dach} = 0{,}32$ W/(m²·K), wahrscheinlich 16 cm Mineralwolle zwischen den Sparren (1990er-Sanierung)
+- **Temperaturkorrekturfaktor**: $F_x = 1{,}0$ (Außenluft)
+- **Aktuelle Dacheindeckung**: ca. 25 Jahre alt – gut, aber nicht neu
+- **Dachgeschoss**: bewohnt (Schlaf-/Kinderzimmer), Drempelhöhe 1,30 m – Raumhöhen sind begrenzt
+- **Klimazone**: Gelsenkirchen, $G_t = 3\,500$ Kd/a
+- **BAFA-Anforderung** (mit iSFP-Bonus 20 %): $U \leq 0{,}14$ W/(m²·K)
+- **GEG-Höchstwert** (saniert): $U \leq 0{,}24$ W/(m²·K)
+- **Aktueller Heizkessel**: Gas-Niedertemperatur, $\eta_a = 0{,}85$
+- **Gaspreis**: 11 ct/kWh, **CO₂-Faktor Erdgas**: 240 g/kWh
+- **Beitrag des Dachs** zum aktuellen $H_T$ (nach Phase 1): rechnet ihr aus $U \cdot A \cdot F_x$ selbst nach
 
-Drei Verfahrensoptionen kommen in Betracht:
+## Schlüsselberechnung
 
-**A – Untersparrendämmung 10 cm Holzfaser** (auf den Bestand)
-: Innenausbau abnehmen, Dampfbremse ergänzen, Lattung mit Holzfaser-Klemmfilz, neuer Innenausbau. Eingriff in die Dachhaut nicht nötig.
+Damit alle in derselben Größenordnung rechnen: eine gemeinsame Ausgangs-Berechnung.
 
-**B – Untersparrendämmung dicker** (so dick, dass BAFA erreicht wird)
-: gleicher Aufbau wie A, aber mit der Dämmdicke, die für $U \leq 0{,}14$ tatsächlich nötig ist.
-
-**C – Aufsparrendämmung 14 cm PIR** (mit kompletter Dacheindeckungserneuerung)
-: vorhandene Eindeckung abnehmen, Aufsparrenpaket aufbringen, neu eindecken. Bestand-Zwischensparrendämmung bleibt im Aufbau erhalten.
-
-### Schlüsselberechnung
-
-!!! example "Aufgabe – U-Wert der Untersparren-Variante A"
-    Berechnet den $U$-Wert der Dachfläche nach Variante A: 10 cm Holzfaser ($\lambda = 0{,}040$ W/(m·K)) auf den Bestand mit $U_{Bestand} = 0{,}32$ W/(m²·K).
+!!! example "Aufgabe – U-Wert der Untersparren-Variante"
+    Berechnet den $U$-Wert der Dachfläche, wenn von unten 10 cm Holzfaser mit $\lambda = 0{,}040$ W/(m·K) als Untersparrendämmung ergänzt werden. Der Bestand hat $U = 0{,}32$ W/(m²·K).
 
     <div class="task-input" data-target="0.178" data-tolerance="0.05" data-unit="W/(m²·K)" data-decimals="3">
       <div class="task-input__hints">
-        <div class="task-input__hint">Tipp 1: Aus $U_{Bestand}$ berechnet ihr zuerst $R_{Bestand} = 1/U_{Bestand}$.</div>
+        <div class="task-input__hint">Tipp 1: Aus dem Bestands-U-Wert ergibt sich $R_{Bestand} = 1 / U_{Bestand}$.</div>
         <div class="task-input__hint">Tipp 2: Die Zusatzschicht trägt $R_{zusatz} = d / \lambda$ bei. Achtung: $d$ in Meter!</div>
         <div class="task-input__hint">Tipp 3: $R_{neu} = R_{Bestand} + R_{zusatz}$, dann $U_{neu} = 1 / R_{neu}$.</div>
       </div>
@@ -169,59 +177,81 @@ Drei Verfahrensoptionen kommen in Betracht:
 
         $U_{neu} = 1 / 5{,}625 \approx 0{,}178$ W/(m²·K)
 
-        **Bewertung:** $0{,}178 \leq 0{,}24$ → **GEG-konform**, aber $0{,}178 > 0{,}14$ → **nicht BAFA-förderfähig**.
+        Der Wert liegt unterhalb des GEG-Höchstwerts von 0,24 W/(m²·K), aber deutlich über der BAFA-Grenze von 0,14 W/(m²·K).
 
-**Folgefrage:** Wie viel Untersparrendämmung wäre nötig, um BAFA-Niveau ($U \leq 0{,}14$) zu erreichen?
+## Euer Arbeitsauftrag im Detail
 
-??? success "Lösungsweg"
-    $R_{BAFA} = 1 / 0{,}14 = 7{,}14$ m²·K/W
+### 1. Verfahrensauswahl
 
-    $R_{zusatz,nötig} = 7{,}14 - 3{,}125 = 4{,}02$ m²·K/W
+Wählt aus den drei Hauptverfahren **zwei sinnvolle Varianten** für den Fall Schmitt aus. Begründet eure Auswahl kurz.
 
-    $d = 4{,}02 \cdot 0{,}040 = 0{,}161$ m = **16,1 cm**
+- Welche Verfahren scheiden für die Situation der Schmitts von vornherein aus? Warum?
+- Wählt ihr eine „ökonomische" (Untersparren, kein BAFA) und eine „förder-optimierte" (Aufsparren, BAFA-konform) Variante?
+- Denkt ihr über Kombi-Lösungen (Zwischensparren-Bestand + Untersparren-Ergänzung) nach?
 
-    **Bewertung:** Baulich problematisch. 16 cm Untersparrendämmung bedeuten in einem Dachgeschoss mit ohnehin niedrigen Räumen einen erheblichen Verlust an Stehhöhe. Das ist der Punkt, an dem die Untersparrenvariante praktisch ausscheidet und die Aufsparrenvariante ins Spiel kommt.
+### 2. Berechnung der U-Werte
 
-### Wirkung am Gesamtgebäude
+Berechnet den U-Wert für jede eurer Varianten. Stellt eure Ergebnisse in einer Vergleichstabelle zusammen.
 
-| Größe | Bestand | nach A (Untersp. 10 cm) | nach C (Aufsp. 14 cm PIR) |
-|---|---|---|---|
-| $U_{Dach}$ in W/(m²·K) | 0,32 | 0,18 | 0,11 |
-| Beitrag zu $H_T$ in W/K | 38,7 | 21,5 | 13,5 |
-| $\Delta H_T$ in W/K | – | 17,2 | 25,2 |
-| Endenergie-Einsparung in kWh/a | – | 1 700 | 2 490 |
-| Heizkosten-Einsparung in €/a | – | 187 | 274 |
-| CO₂-Einsparung in kg/a | – | 410 | 600 |
+Prüft für jede Variante:
 
-(Berechnungsbasis: $G_t = 3\,500$ Kd/a, Gas-Brennwert $\eta_a = 0{,}85$, Gaspreis 11 ct/kWh, CO₂-Faktor Erdgas 240 g/kWh)
+- Ist der GEG-Höchstwert ($U \leq 0{,}24$) eingehalten?
+- Ist die BAFA-Anforderung ($U \leq 0{,}14$) erfüllt?
+- Falls nicht: welche Dämmdicke wäre für BAFA nötig? Ist die baulich realistisch (Raumhöhe im DG!)?
 
-Zum Vergleich: Die WDVS-Sanierung brachte 11 120 kWh/a und 1 245 €/a Einsparung. Die Dachsanierung bringt **ein Sechstel davon** – obwohl das Dach mit 121 m² fast genauso groß ist wie die Außenwand mit 152 m².
+### 3. Wirkung am Gesamtgebäude
 
-Der Grund: Beim WDVS war der Sprung von $U = 0{,}92$ auf $0{,}18$, also $\Delta U = 0{,}74$. Beim Dach ist es nur ein Sprung von $0{,}32$ auf $0{,}18$, also $\Delta U = 0{,}14$. Das **schon teilsanierte Dach** lässt deutlich weniger Spielraum als die völlig ungedämmte Außenwand.
+Für jede Variante berechnet:
 
-### Wirtschaftlichkeit
+- Neuer Beitrag des Dachs zum $H_T$
+- Reduktion $\Delta H_T$ gegenüber dem Bestand
+- Jährliche Reduktion der Transmissionsverluste $\Delta Q_T$
+- Jährliche Einsparung an Endenergie, Kosten und CO₂ (Formeln in der [Formelsammlung](../berechnungen/formelsammlung.md))
 
-| Position | Variante A (Untersp.) | Variante C (Aufsp.) |
-|---|---|---|
-| Kosten | ca. 65 €/m² × 121 m² = **7 900 €** | ca. 280 €/m² × 121 m² = **33 900 €** |
-| BAFA-Förderung (20 % mit iSFP) | – (nicht BAFA-fähig) | – (auf 150 €/m² Dämmkosten-Anteil) ≈ 3 600 € |
-| Eigenanteil | ≈ 7 900 € | ≈ 30 300 € |
-| jährliche Einsparung | 187 € | 274 € |
-| **statische Amortisation** | **≈ 42 Jahre** | **≈ 110 Jahre** |
+Vergleicht die Größenordnung mit der WDVS-Einsparung aus Phase 1 (11 120 kWh/a Endenergie). Was fällt euch auf, und was ist die Erklärung?
 
-**Das ist die ehrliche Wahrheit:** Beide Varianten amortisieren sich rein wirtschaftlich nicht innerhalb der typischen Bauteil-Lebensdauer (40 Jahre für die Eindeckung). Die Dachsanierung der Schmitts ist **kein Renditeprojekt**, sondern muss anders begründet werden.
+### 4. Investition und Amortisation
 
-Was spricht trotzdem dafür?
+Für jede Variante:
 
-| Argument | Tragweite |
-|---|---|
-| **Wärmepumpen-Vorbereitung** | Vorlauftemperatur kann nach Dachdämmung gesenkt werden, JAZ steigt von 3,0 auf 3,3–3,5 – das ist über 20 Jahre ein realer Effekt |
-| **Sommerlicher Hitzeschutz** | mit Holzfaser-Dämmung wird das Dachgeschoss im Sommer bewohnbar (Phasenverschiebung 10–12 h) |
-| **Komfortgewinn** | gleichmäßigere Raumtemperaturen, kein "kaltes Schlafzimmer" mehr |
-| **CO₂-Bilanz** | 410–600 kg/a über die Restlebensdauer der Eindeckung |
-| **Risikoabsicherung** | gegen weiter steigende CO₂-Preise und volatile Energiepreise |
+- Bruttoinvestition auf Basis der Preistabelle
+- BAFA-Förderung 20 % mit iSFP – nur wenn der U-Wert BAFA-konform ist! Bei Aufsparrendämmung mit neuer Eindeckung: nur der Dämmkosten-Anteil (ca. 150 €/m²) ist förderfähig, nicht die Eindeckung selbst.
+- Eigenanteil nach Förderung
+- Statische Amortisationszeit
 
-In der Beratung Schmitt wäre der ehrliche Vorschlag: **Variante A ohne BAFA-Förderung**, begründet mit Komfort, Hitzeschutz und Wärmepumpen-Eignung. Variante C (Aufsparren) lohnt nur, wenn die Dacheindeckung in den nächsten 3–5 Jahren ohnehin erneuert werden muss – dann ist es eine **Mitnahme-Sanierung**, kein Selbstzweck.
+### 5. Vergleich und Bewertung
+
+Stellt eure Varianten in einer Bewertungsmatrix zusammen. Welche Kriterien gewichtet ihr wie?
+
+- Investitionshöhe / Eigenanteil
+- Amortisationszeit
+- CO₂-Einsparung
+- Komfortgewinn (Winter- und Sommer-Aspekte)
+- Voraussetzungen für die Wärmepumpe (niedrige Vorlauftemperatur)
+- Anlass der Sanierung – Mitnahme-Effekt bei ohnehin fälliger Dacheindeckungserneuerung
+- Baulicher Eingriff (Raumhöhe im Dachgeschoss, Bauzeit, Bewohnbarkeit)
+
+### 6. Empfehlung
+
+Formuliert eine **schriftliche Empfehlung** an Familie Schmitt (5–10 Sätze), die
+
+- eine klare Handlungsempfehlung enthält (welche Variante, mit welchem Material),
+- die wichtigsten fachlichen Argumente nennt,
+- ehrlich einordnet, ob die Wirtschaftlichkeit trägt oder ob andere Argumente wichtiger sind,
+- auf mögliche Rückfragen der Familie vorbereitet ist.
+
+## Fragen für eure Präsentation
+
+Die anderen Gruppen kennen das Kapitel nicht. Eure Präsentation sollte diese Fragen nachvollziehbar beantworten:
+
+- **Was macht das Dach als Bauteil bauphysikalisch besonders?** (Dampfdiffusion, sommerlicher Hitzeschutz)
+- **Welche drei Verfahren gibt es und wo liegen ihre Voraussetzungen?**
+- **Warum ist die Wirtschaftlichkeit beim Dach anders zu bewerten als beim WDVS?** (Sprung des U-Werts, teilsanierter Bestand)
+- **Was ist eure Empfehlung an Familie Schmitt und warum?**
+- **Welche nicht-monetären Argumente sprechen für oder gegen die Dachsanierung?**
+- **Wie steht die Dachsanierung wirtschaftlich im Vergleich zu Fenster, Keller und Anlagentechnik da?** (Ihr müsst dazu die Ergebnisse der anderen Gruppen bei der Präsentation aufnehmen.)
+
+Plant außerdem 2–3 Minuten für Rückfragen und Diskussion ein.
 
 ## Verständnis-Check
 
@@ -271,17 +301,6 @@ In der Beratung Schmitt wäre der ehrliche Vorschlag: **Variante A ohne BAFA-Fö
 <div class="quiz__explain">Der \(\lambda\)-Wert beschreibt den Winter-Wärmeschutz. Für den Sommer entscheidend ist die <strong>Phasenverschiebung</strong> – wie lange die Hitze braucht, um durch die Dämmung zu wandern. Diese hängt von der spezifischen Wärmespeicherkapazität und der Rohdichte ab. <strong>Holzfaser</strong> hat mit ca. 2 100 J/(kg·K) eine etwa zweieinhalbmal so hohe Speicherkapazität wie Mineralwolle und erreicht damit Phasenverschiebungen von 10–12 h, während Mineralwolle bei 5–6 h liegt.</div>
 </div>
 
-<div class="quiz__q" data-correct="1">
-<p class="quiz__qtext">Bei Familie Schmitt amortisiert sich die Untersparren-Dachsanierung statisch erst nach etwa 42 Jahren – die Aufsparrenvariante sogar erst nach über 100 Jahren. Welche Schlussfolgerung ist im Beratungsgespräch <strong>am sinnvollsten</strong>?</p>
-<ul class="quiz__opts">
-<li>Die Sanierung anders begründen: Komfort, sommerlicher Hitzeschutz, Wärmepumpen-Vorbereitung, CO₂-Bilanz – und transparent kommunizieren, dass die rein wirtschaftliche Logik schwach ist.</li>
-<li>Die Sanierung dringend empfehlen, weil 42 Jahre Amortisation immer noch innerhalb der Lebensdauer liegen.</li>
-<li>Von der Sanierung abraten, weil sie sich nicht rechnet.</li>
-<li>Die Variante mit der besten BAFA-Förderung wählen, weil die immer wirtschaftlich ist.</li>
-</ul>
-<div class="quiz__explain">Eine <strong>ehrliche Beratung</strong> erkennt an, dass die Dachsanierung im teilsanierten Bestand <em>kein</em> Renditeprojekt ist. Statt das mit gewagten Zahlen schönzurechnen, ist es professionell, andere Argumente in den Vordergrund zu stellen: Komfort, Hitzeschutz, Wärmepumpen-Eignung, CO₂-Bilanz, Risikoabsicherung. Sanierungsabraten ist falsch – die nicht-monetären Vorteile sind real und wichtig. „Immer wirtschaftlich" ist BAFA-Förderung nicht, sie senkt nur den Eigenanteil.</div>
-</div>
-
 <div class="quiz__q" data-correct="2">
 <p class="quiz__qtext">In welcher Situation ist die Aufsparrendämmung trotz hoher Kosten die <strong>klar bessere Wahl</strong>?</p>
 <ul class="quiz__opts">
@@ -295,31 +314,29 @@ In der Beratung Schmitt wäre der ehrliche Vorschlag: **Variante A ohne BAFA-Fö
 
 </div>
 
-## Im Unterricht besprechen
+## Weiterführende Fragen für die Diskussion
 
 <div class="discuss">
 
 <div class="discuss__item discuss__item--reflect">
 <span class="discuss__tag">Reflexion</span>
-<p>Beim WDVS waren Wirtschaftlichkeit und Energieeinsparung die Hauptargumente. Beim Dach der Schmitts müsst ihr <strong>anders argumentieren</strong>, weil die wirtschaftliche Logik nicht trägt. Welcher Wechsel der Argumentationsbasis fällt euch am leichtesten – Komfort? Hitzeschutz? Wärmepumpen-Eignung? – und welcher wäre für die Schmitts persönlich vermutlich am überzeugendsten?</p>
+<p>Beim WDVS in Phase 1 waren Wirtschaftlichkeit und Energieeinsparung die tragenden Argumente. Wenn ihr am Dach der Schmitts arbeitet: An welchem Punkt eurer Rechnung habt ihr gemerkt, dass die Argumentation hier <em>anders</em> laufen muss? Was war der wichtigste Aha-Moment?</p>
 </div>
 
 <div class="discuss__item discuss__item--debate">
 <span class="discuss__tag">Diskussion</span>
-<p>Eine Energieberaterin sagt: „<em>Bei teilsanierten Bauteilen wie diesem Dach würde ich keine zweite Sanierung empfehlen, sondern das Geld lieber in die Anlagentechnik oder andere Bauteile stecken. 42 Jahre Amortisation, das macht man nicht.</em>" Eine andere widerspricht: „<em>Wenn ich für die Wärmepumpe ohnehin eine bessere Hülle brauche, dann muss ich überall ran, wo noch Reserven sind – auch wenn die einzelne Maßnahme rechnerisch zäh ist. Das Gesamtsystem zählt.</em>" Wer hat eher recht? Wovon hängt es ab?</p>
-<p class="discuss__hint">Stichworte: Wärmepumpen-Vorbedingung (Vorlauftemperatur ≤ 55 °C, besser ≤ 45 °C), gewichtetes Bauteilportfolio, Opportunitätskosten (was machen wir <em>statt</em> der Dachsanierung mit den 8 000 €?), Lebenshorizont der Familie, Risikobetrachtung steigende Energiepreise.</p>
+<p>Eine Energieberaterin sagt: „<em>Bei teilsanierten Bauteilen wie diesem Dach würde ich keine zweite Sanierung empfehlen, sondern das Geld lieber in die Anlagentechnik oder andere Bauteile stecken.</em>" Eine andere widerspricht: „<em>Wenn ich für die Wärmepumpe ohnehin eine bessere Hülle brauche, dann muss ich überall ran, wo noch Reserven sind – auch wenn die einzelne Maßnahme rechnerisch zäh ist. Das Gesamtsystem zählt.</em>" Wer hat eher recht? Wovon hängt es ab?</p>
+<p class="discuss__hint">Stichworte: Wärmepumpen-Vorbedingung (Vorlauftemperatur ≤ 55 °C, besser ≤ 45 °C), gewichtetes Bauteilportfolio, Opportunitätskosten (was macht die Familie <em>statt</em> der Dachsanierung mit dem Geld?), Lebenshorizont, Risiko steigender Energiepreise.</p>
 </div>
 
 <div class="discuss__item discuss__item--debate">
 <span class="discuss__tag">Diskussion</span>
 <p>Die Schmitts könnten beim Dach <strong>Holzfaser</strong> statt Mineralwolle wählen – mit ca. 30 % Mehrkosten, dafür mit der besseren Phasenverschiebung. Ist das ein vertretbarer Mehrpreis, wenn das Dachgeschoss bewohnt ist? Wie würdet ihr das im Beratungsgespräch begründen, ohne in Werbesprache zu verfallen?</p>
-<p class="discuss__hint">Reale Werte: Eine 30-jährige Studie zu sommerlichem Hitzeschutz zeigt, dass Wohnräume unter Holzfaser-gedämmten Dächern im Sommer 3–6 K kühler sind als unter Mineralwolle-gedämmten – bei sonst identischer Konstruktion. In klimaerwärmten Sommern ist das ein realer Komfortgewinn, auch wenn er nicht in kWh messbar ist.</p>
+<p class="discuss__hint">Reale Werte: Wohnräume unter Holzfaser-gedämmten Dächern sind in Feldstudien im Sommer 3–6 K kühler als unter Mineralwolle-gedämmten – bei sonst identischer Konstruktion. In klimaerwärmten Sommern ein realer Komfortgewinn, auch wenn er nicht in kWh messbar ist.</p>
 </div>
 
 </div>
 
 ---
 
-Damit ist das Dach im Phase-2-Vergleich verortet. Beitrag zum $H_T$, Verfahrensoptionen, Wirtschaftlichkeit und Argumentation für die Beratung – alles auf dem Tisch. Im Verfahrensvergleich am Ende der Phase wird das Dach im Gesamtkontext aller Bauteile noch einmal eingeordnet.
-
-→ Weiter zum [Fenster](fenster.md)
+→ Weiter zu [Fenster](fenster.md) · [Keller & Bodenplatte](keller.md) · [Anlagentechnik](anlagentechnik.md) · oder zurück zur [Phase 2 – Übersicht](uebersicht.md)

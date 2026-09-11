@@ -1,17 +1,29 @@
 # Fenstersanierung
 
-Die fünf Fenster der Schmitts haben zusammen nur 13,4 m² Fläche – das sind weniger als 4 % der Hüllfläche. Trotzdem tragen sie mit 37,5 W/K rund 19 % zum verbleibenden $H_T$ bei, fast genauso viel wie das Dach mit seinen 121 m². Das paradoxe Verhältnis $U \cdot A$ – kleine Fläche, sehr hoher $U$-Wert – macht Fenster zum interessantesten Phase-2-Bauteil: punktueller Eingriff mit großer Wirkung pro Quadratmeter.
+Die fünf Fenster der Schmitts haben zusammen nur 13,4 m² Fläche – weniger als 4 % der Hüllfläche. Trotzdem tragen sie mit 37,5 W/K rund 19 % zum verbleibenden $H_T$ bei, fast genauso viel wie das Dach mit seinen 121 m². Das paradoxe Verhältnis $U \cdot A$ – kleine Fläche, sehr hoher $U$-Wert – macht Fenster zu einem punktuellen Eingriff mit großer Wirkung pro Quadratmeter.
 
-Anders als beim Dach gibt es hier auch nicht "drei konkurrierende Verfahren", sondern eine Variantenkette: 2-fach modern, 3-fach Standard, 3-fach Premium. Die Frage ist nicht *ob* getauscht wird, sondern *wie hochwertig* und *mit welchem Rahmen*. Hinzu kommt eine Dimension, die bei den vorherigen Bauteilen keine Rolle spielte: **solare Gewinne**. Fenster verlieren Wärme – aber sie gewinnen auch Wärme aus der Sonne, und je nach Glas in unterschiedlichem Maß.
+Anders als beim Dach gibt es hier nicht drei konkurrierende Verfahren, sondern eine **Variantenkette**: 2-fach modern, 3-fach Standard, 3-fach Premium. Die Frage ist nicht *ob* getauscht wird, sondern *wie hochwertig* und *mit welchem Rahmen*. Hinzu kommt eine Dimension, die bei den vorherigen Bauteilen keine Rolle spielte: **solare Gewinne**. Fenster verlieren Wärme – aber sie gewinnen auch Wärme aus der Sonne, und je nach Glas in unterschiedlichem Maß.
+
+!!! info "Euer Arbeitsauftrag"
+    Ihr seid die Beraterinnen und Berater für das Bauteil **Fenster** der Familie Schmitt. Am Ende der Arbeitsphase präsentiert ihr den anderen Gruppen:
+
+    1. **Ausgangslage** – warum ist dieses Bauteil für die Schmitts relevant? Wie groß ist sein Anteil am Wärmeverlust?
+    2. **Verfahrensvarianten** – welche Sanierungsansätze kommen infrage? Wo liegen deren Vor- und Nachteile?
+    3. **Berechnung** – für zwei bis drei Varianten die $U_W$-Werte, die Reduktion des $H_T$ und die jährliche Endenergie-, Kosten- und CO₂-Einsparung.
+    4. **Wirtschaftlichkeit** – Investition, Förderung, Amortisation für jede Variante.
+    5. **Eure begründete Empfehlung** – welche Variante würdet ihr Familie Schmitt vorschlagen und warum? Welche Argumente sind für euch entscheidend?
+    6. **Einordnung im Gesamtvergleich** – wie priorisiert ihr diese Maßnahme im Vergleich zu den anderen Phase-2-Bauteilen?
+
+    Die anderen Gruppen wissen zum Zeitpunkt eurer Präsentation *nicht*, was ihr herausgefunden habt. Eure Aufgabe ist, ihnen die entscheidenden Erkenntnisse in etwa 10 Minuten nachvollziehbar zu vermitteln.
 
 !!! abstract "Lernziele"
-    Nach diesem Kapitel könnt ihr
+    Am Ende dieser Arbeit könnt ihr
 
     - die Bauteilgrößen $U_g$, $U_f$, $U_W$ unterscheiden und ihren Zusammenhang erklären,
     - die wichtigsten Verglasungstypen und Rahmenmaterialien hinsichtlich Wärmeschutz und Kosten einordnen,
     - den $U_W$-Wert eines Fensters aus Glas- und Rahmenanteilen abschätzen,
     - die Bedeutung des $g$-Werts (Gesamtenergiedurchlassgrad) für die Energiebilanz einschätzen,
-    - bei einer Fenstersanierung neben dem Energieargument auch Komfort, Schallschutz und Sicherheit in die Beratung einbringen.
+    - eine begründete Verfahrensempfehlung entwickeln, die auch Komfort, Schallschutz und Sicherheit einbezieht.
 
 ## Das Fenster als Bauteil
 
@@ -21,7 +33,7 @@ Während Wand und Dach als flächige Schichtenkonstruktionen funktionieren, ist 
 - **Rahmen** – Holz, Kunststoff oder Metall; trägt 20–40 % der Fensterfläche
 - **Anschluss zur Wand** – Abdichtung, Dämmung der Laibung, Anschluss an die luftdichte Ebene
 
-Jeder dieser drei Bereiche hat seinen eigenen Wärmedurchgangskoeffizienten – und in Summe ergibt sich der für das Gesamtfenster maßgebliche **$U_W$** (W für "window"):
+Jeder Bereich hat seinen eigenen Wärmedurchgangskoeffizienten – in Summe ergibt sich der für das Gesamtfenster maßgebliche **$U_W$** (W für „window"):
 
 $$
 U_W = \dfrac{A_g \cdot U_g + A_f \cdot U_f + l_g \cdot \Psi_g}{A_W}
@@ -31,7 +43,7 @@ mit $A_g$ = Glasfläche, $U_g$ = Glas-U-Wert, $A_f$ = Rahmenfläche, $U_f$ = Rah
 
 Vereinfacht ist $U_W$ ein **flächengewichtetes Mittel** aus Glas und Rahmen, korrigiert um die **Wärmebrücke am Glasrand** (der Abstandhalter zwischen den Scheiben ist nicht so gut gedämmt wie Glas und Rahmen für sich allein).
 
-Eine zweite Größe ist für die Energiebilanz wichtig: der **$g$-Wert** der Verglasung, der Gesamtenergiedurchlassgrad. Er gibt an, **welcher Anteil der einfallenden Sonnenstrahlung als Wärme ins Gebäude gelangt**. Ein hoher $g$-Wert ist im Winter ein Gewinn (kostenlose Heizenergie), im Sommer ein Risiko (Überhitzung). Moderne Wärmeschutzgläser haben deutlich niedrigere $g$-Werte als alte Einfachverglasungen – sie dämmen besser, lassen aber auch weniger Sonnenwärme durch.
+Eine zweite Größe ist für die Energiebilanz wichtig: der **$g$-Wert** der Verglasung, der Gesamtenergiedurchlassgrad. Er gibt an, welcher Anteil der einfallenden Sonnenstrahlung als Wärme ins Gebäude gelangt. Ein hoher $g$-Wert ist im Winter ein Gewinn (kostenlose Heizenergie), im Sommer ein Risiko (Überhitzung). Moderne Wärmeschutzgläser haben deutlich niedrigere $g$-Werte als alte Verglasungen – sie dämmen besser, lassen aber auch weniger Sonnenwärme durch.
 
 ## Verglasungsvarianten
 
@@ -44,9 +56,9 @@ Eine zweite Größe ist für die Energiebilanz wichtig: der **$g$-Wert** der Ver
 | **3-fach Wärmeschutz Standard** | 0,6 – 0,8 | 0,50 | drei Scheiben, zwei Edelgas-Räume |
 | **3-fach Premium** (Passivhaus-Niveau) | 0,4 – 0,6 | 0,50 | Krypton-Füllung, optimierter Aufbau |
 
-Drei wichtige Entwicklungen ermöglichen die heutigen niedrigen $U_g$-Werte:
+Drei Entwicklungen ermöglichen die heutigen niedrigen $U_g$-Werte:
 
-**Low-E-Beschichtung** auf den Innenseiten der Glasscheiben: Dünne Metalloxidschichten reflektieren langwellige Wärmestrahlung zurück in den Raum, lassen aber das sichtbare Licht durch. Eine einzige Low-E-Beschichtung verbessert $U_g$ um etwa 1 W/(m²·K).
+**Low-E-Beschichtung** auf den Innenseiten der Glasscheiben: dünne Metalloxidschichten reflektieren langwellige Wärmestrahlung zurück in den Raum, lassen aber das sichtbare Licht durch. Eine einzige Low-E-Beschichtung verbessert $U_g$ um etwa 1 W/(m²·K).
 
 **Edelgasfüllung** (Argon oder Krypton) zwischen den Scheiben: niedrigere Wärmeleitfähigkeit als Luft. Argon ist Standard, Krypton ist teurer, aber besser für sehr schmale Scheibenzwischenräume.
 
@@ -67,17 +79,11 @@ Drei wichtige Entwicklungen ermöglichen die heutigen niedrigen $U_g$-Werte:
 
 ## Solare Gewinne – die Doppelrolle des Fensters
 
-Im Unterschied zu allen anderen Bauteilen verliert das Fenster nicht nur Wärme, es gewinnt auch welche. Bei einer ungetrübten Südfassade in Deutschland trifft im Jahresmittel ca. 1 000 kWh/(m²·a) Sonnenstrahlung auf die Fassade. Davon kommt durch die Verglasung ein Anteil von $g$ als Wärme im Innenraum an.
+Anders als alle bisherigen Bauteile verliert das Fenster nicht nur Wärme, es gewinnt auch welche. Bei einer ungetrübten Südfassade in Deutschland trifft im Jahresmittel ca. 1 000 kWh/(m²·a) Sonnenstrahlung auf die Fassade. Davon kommt durch die Verglasung ein Anteil von $g$ als Wärme im Innenraum an.
 
-Für die Energiebilanz heißt das:
+Für die Energiebilanz ist der pauschalisierte Wert $q_S$ pro m² Nutzfläche der Ausgangspunkt (siehe [Formelsammlung](../berechnungen/formelsammlung.md)) – er enthält bereits einen Standard-$g$-Wert.
 
-$$
-Q_S = q_S \cdot A_N \quad \text{mit} \quad q_S \text{ als spezifischem Wert über die Wohnfläche}
-$$
-
-(siehe [Formelsammlung](../berechnungen/formelsammlung.md)). Der spezifische Wert $q_S \approx 15$ kWh/(m²·a) ist eine Pauschalierung, die schon den $g$-Wert moderner Verglasungen einbezieht. In Wirklichkeit hängt der Beitrag stark von Himmelsrichtung, Verschattung und $g$-Wert ab.
-
-**Wichtig für die Beratung:** Beim Tausch von alten 2-fach-Fenstern ($g = 0{,}75$) gegen moderne 3-fach-Fenster ($g = 0{,}50$) sinkt der solare Gewinn um etwa ein Drittel. Diese verlorenen kostenlosen kWh werden in der Energiebilanz aber durch den deutlich kleineren $U_W$ überkompensiert – netto gewinnt das Gebäude. Die Rechnung sieht je nach Ausrichtung anders aus: Bei einem reinen Nordfenster spielt $g$ kaum eine Rolle, bei einem großen Südfenster kann die Wahl zwischen "U = 0,8 / g = 0,50" und "U = 0,9 / g = 0,60" durchaus zugunsten von Variante 2 ausfallen.
+**Wichtig für die Beratung:** Beim Tausch von alten 2-fach-Fenstern ($g \approx 0{,}75$) gegen moderne 3-fach-Fenster ($g \approx 0{,}50$) sinkt der solare Gewinn um etwa ein Drittel. Ob die Bilanz netto positiv bleibt, hängt vom Standort, der Verschattung und der Ausrichtung ab. Für ein reines Nordfenster spielt $g$ praktisch keine Rolle, für ein großes Südfenster kann sie die Wahl zwischen zwei Verglasungstypen umkehren.
 
 ## Einbau und Anschluss – der effektive U-Wert
 
@@ -87,7 +93,7 @@ Der angegebene $U_W$ gilt für das Fenster im Labortest. In der eingebauten Real
 
 **Laibungsdämmung:** Die schmale Wandfläche zwischen Fensteröffnung und Außenmauerwerk wird im WDVS mit 2–3 cm dünner Dämmung verkleidet. Das reduziert die Wärmebrücke am Anschluss erheblich.
 
-**Luftdichter Anschluss:** Innen mit dampfdichten Anschlussbändern, außen mit schlagregendichten, aber diffusionsoffenen Bändern. Das ist die RAL-konforme Montage in drei Ebenen: außen wetterfest, innen luftdicht, dazwischen funktionsfähig dämmend.
+**Luftdichter Anschluss:** Innen mit dampfdichten Anschlussbändern, außen mit schlagregendichten, aber diffusionsoffenen Bändern. RAL-konforme Montage in drei Ebenen: außen wetterfest, innen luftdicht, dazwischen funktionsfähig dämmend.
 
 Eine schlechte Montage kostet leicht 30 % der laboratoriumsangegebenen Dämmwirkung. **Die Qualität der Handwerker-Ausführung ist beim Fenster wichtiger als beim WDVS.**
 
@@ -97,33 +103,41 @@ Beim Fenster ist die rein energetische Bilanz nur ein Aspekt unter mehreren. Die
 
 **Schallschutz.** Verkehrslärm, Nachbarschaftslärm, Gewerbe. Eine 2-fach-Verglasung erreicht ca. 32 dB, eine 3-fach mit asymmetrischem Glasaufbau bis 45 dB. In verkehrsbelasteten Lagen ist der Schallschutzgewinn oft der eigentliche Kaufgrund.
 
-**Sicherheit.** Einbruchhemmung nach den RC-Klassen (RC1 bis RC6). RC2 ist im EFH der Standard mit "guter Grundsicherheit" und etwa 10–20 % Aufpreis. Versicherungen geben dafür teilweise Rabatte.
+**Sicherheit.** Einbruchhemmung nach den RC-Klassen (RC1 bis RC6). RC2 ist im EFH der Standard mit „guter Grundsicherheit" und etwa 10–20 % Aufpreis. Versicherungen geben dafür teilweise Rabatte.
 
-**Behaglichkeit.** An einem alten 2-fach-Fenster mit $U_W \approx 2{,}8$ hat die Innenseite bei –10 °C Außentemperatur nur etwa 12 °C – man fühlt sich "kalt", auch wenn die Raumlufttemperatur 21 °C ist (Strahlungsasymmetrie). Bei einem 3-fach-Fenster mit $U_W = 0{,}8$ liegt die Innenseite bei 18 °C – kaum unterscheidbar von der Wand.
+**Behaglichkeit.** An einem alten 2-fach-Fenster mit $U_W \approx 2{,}8$ hat die Innenseite bei –10 °C Außentemperatur nur etwa 12 °C – man fühlt sich „kalt", auch wenn die Raumlufttemperatur 21 °C ist (Strahlungsasymmetrie). Bei einem 3-fach-Fenster mit $U_W = 0{,}8$ liegt die Innenseite bei rund 18 °C – kaum unterscheidbar von der Wand.
 
-**Schimmel an der Laibung.** Wenn die Wandinnenseite an der Fensterlaibung kalt ist (typischer Schwachpunkt vor der WDVS-Sanierung), kondensiert Feuchtigkeit und Schimmel entsteht. Eine WDVS-Sanierung **ohne** Fenstertausch kann dieses Problem sogar verschärfen, weil die Wand warm wird, die alte Fensterlaibung aber kalt bleibt – die Taupunkt-Wanderung verschiebt sich ungünstig.
+**Schimmel an der Laibung.** Wenn die Wandinnenseite an der Fensterlaibung kalt ist, kondensiert Feuchtigkeit und Schimmel entsteht. Eine WDVS-Sanierung **ohne** Fenstertausch kann dieses Problem sogar verschärfen, weil die Wand warm wird, die alte Fensterlaibung aber kalt bleibt – die Taupunkt-Wanderung verschiebt sich ungünstig.
 
-## Fenstersanierung bei Familie Schmitt
+## Marktvarianten und Preise
 
-Ausgangsdaten:
+Für die drei relevanten Varianten am aktuellen Markt:
 
-- 5 Fenster, gesamt 13,4 m²: 2× Süd (Wohnzimmer), 1× West (Esszimmer), 1× Ost (Küche), 1× Nord (Eingangsbereich)
-- Verglasung 1995er Wärmeschutzglas, $U_g \approx 2{,}5$, mit Kunststoffrahmen $U_f \approx 2{,}0$, eingebaut → $U_W = 2{,}80$ W/(m²·K)
-- BAFA-Förderniveau: $U_W \leq 0{,}95$ W/(m²·K) (mit iSFP-Bonus 20 %)
-- GEG-Höchstwert (saniert): $U_W \leq 1{,}30$ W/(m²·K)
+| Variante | typischer $U_W$ | Preis fertig eingebaut |
+|---|---|---|
+| **2-fach modern** (Wärmeschutz-Standard) | 1,0 – 1,2 | 500 – 600 €/m² |
+| **3-fach Standard** (Kunststoffrahmen, Argon) | 0,80 | 700 – 900 €/m² |
+| **3-fach Premium** (Holz-Alu-Rahmen, Krypton) | 0,60 – 0,70 | 1 100 – 1 400 €/m² |
 
-Die Variantenkette:
+Die BAFA-Förderung greift bei $U_W \leq 0{,}95$ W/(m²·K) – also **nicht** bei 2-fach modern, wohl aber bei 3-fach Standard.
 
-**Variante 1 – 2-fach modern** ($U_W \approx 1{,}1$)
-: GEG-konform, aber **nicht** BAFA-förderfähig. Untergrenze des heutigen Markts.
+## Ausgangsdaten Familie Schmitt
 
-**Variante 2 – 3-fach Standard** ($U_W \approx 0{,}80$)
-: BAFA-förderfähig, gängiger Standard im Sanierungsbereich. Kunststoffrahmen, Argon-Füllung, Low-E-Beschichtung.
+Zusammengefasst, was ihr über den Bestand wisst:
 
-**Variante 3 – 3-fach Premium** ($U_W \approx 0{,}65$)
-: Passivhaus-Niveau, mit Holz-Aluminium-Rahmen und Krypton-Füllung. Sehr hoher Komfort.
+- **Fenster gesamt**: $A = 13{,}4$ m² (5 Stück, 2× Süd/Wohnzimmer, 1× West/Esszimmer, 1× Ost/Küche, 1× Nord/Eingang)
+- **Bestand-U-Wert**: $U_W = 2{,}80$ W/(m²·K) – 1990er Wärmeschutzglas, Kunststoffrahmen
+- **Temperaturkorrekturfaktor**: $F_x = 1{,}0$ (Außenluft)
+- **Klimazone**: Gelsenkirchen, $G_t = 3\,500$ Kd/a
+- **BAFA-Anforderung** (mit iSFP-Bonus 20 %): $U_W \leq 0{,}95$ W/(m²·K)
+- **GEG-Höchstwert** (saniert): $U_W \leq 1{,}30$ W/(m²·K)
+- **Aktueller Heizkessel**: Gas-Niedertemperatur, $\eta_a = 0{,}85$
+- **Gaspreis**: 11 ct/kWh, **CO₂-Faktor Erdgas**: 240 g/kWh
+- **Beitrag der Fenster** zum aktuellen $H_T$ (nach Phase 1): rechnet ihr aus $U \cdot A \cdot F_x$ selbst nach
 
-### Schlüsselberechnung
+## Schlüsselberechnung
+
+Damit alle in derselben Größenordnung rechnen: eine gemeinsame Ausgangs-Berechnung.
 
 !!! example "Aufgabe – U-Wert eines Fensters aus Glas- und Rahmenanteil"
     Berechnet den $U_W$-Wert eines 3-fach-Verglasten Fensters mit folgenden Angaben (vereinfacht, ohne $\Psi_g$-Korrektur):
@@ -134,7 +148,7 @@ Die Variantenkette:
     <div class="task-input" data-target="0.88" data-tolerance="0.05" data-unit="W/(m²·K)" data-decimals="2">
       <div class="task-input__hints">
         <div class="task-input__hint">Tipp 1: $U_W$ ist hier ein flächengewichtetes Mittel aus Glas und Rahmen.</div>
-        <div class="task-input__hint">Tipp 2: $U_W = (A_g / A_W) \cdot U_g + (A_f / A_W) \cdot U_f$ – die Wärmebrücke am Glasrand wird hier vereinfachend vernachlässigt.</div>
+        <div class="task-input__hint">Tipp 2: $U_W = (A_g / A_W) \cdot U_g + (A_f / A_W) \cdot U_f$.</div>
         <div class="task-input__hint">Tipp 3: $U_W = 0{,}70 \cdot 0{,}70 + 0{,}30 \cdot 1{,}30 = \ldots$</div>
       </div>
     </div>
@@ -142,48 +156,76 @@ Die Variantenkette:
     ??? success "Lösungsweg"
         $U_W = 0{,}70 \cdot 0{,}70 + 0{,}30 \cdot 1{,}30 = 0{,}49 + 0{,}39 = 0{,}88$ W/(m²·K)
 
-        **Bewertung:** Das Fenster ist mit $U_W = 0{,}88$ besser als BAFA-Anforderung ($\leq 0{,}95$) – also förderfähig. Eine reale Berechnung mit Glasrand-Wärmebrücke käme bei einer Standard-Aluminium-Abstandhalter-Konstruktion auf etwa $U_W = 0{,}95$, mit warmer Kante bei $U_W = 0{,}90$. Die Vereinfachung hier liegt also realistisch nahe am Marktstandard.
+        Eine reale Berechnung mit Glasrand-Wärmebrücke käme mit Standard-Aluminium-Abstandhalter auf etwa $U_W = 0{,}95$, mit warmer Kante bei $U_W = 0{,}90$. Die Vereinfachung liegt realistisch nahe am Marktstandard.
 
-    **Folgefrage:** Wie verändert sich $U_W$, wenn das Glas auf $U_g = 0{,}50$ (Premium-Verglasung) und der Rahmen auf $U_f = 0{,}90$ (6-Kammer-Kunststoffrahmen) verbessert wird?
+## Euer Arbeitsauftrag im Detail
 
-    ??? success "Lösungsweg"
-        $U_W = 0{,}70 \cdot 0{,}50 + 0{,}30 \cdot 0{,}90 = 0{,}35 + 0{,}27 = 0{,}62$ W/(m²·K)
+### 1. Verfahrensauswahl
 
-        Das ist Passivhaus-Niveau und liegt deutlich unter BAFA. Die Verbesserung um 0,26 W/(m²·K) gegenüber Standard-3-fach wird hauptsächlich vom Glas (–0,20) getragen, der Rahmen trägt –0,12. Wer optimieren will, beginnt also typischerweise beim Glas.
+Wählt aus der Variantenkette **zwei oder drei Varianten** für den Fall Schmitt aus. Begründet eure Auswahl kurz.
 
-### Wirkung am Gesamtgebäude
+- Welche Variante scheidet für die BAFA-Förderung aus? Ist sie trotzdem eine Option?
+- Wählt ihr eine „ökonomische", eine „förder-optimierte" oder eine „komfort-optimierte" Kombination?
+- Welche Rahmenmaterialien setzt ihr an, und wieviel Aufpreis nehmt ihr für Holz-Alu in Kauf?
 
-| Größe | Bestand | Variante 1 (2-f. modern) | Variante 2 (3-f. Standard) | Variante 3 (3-f. Premium) |
-|---|---|---|---|---|
-| $U_W$ in W/(m²·K) | 2,80 | 1,10 | 0,80 | 0,65 |
-| Beitrag zu $H_T$ in W/K | 37,5 | 14,7 | 10,7 | 8,7 |
-| $\Delta H_T$ in W/K | – | 22,8 | 26,8 | 28,8 |
-| Endenergie-Einsparung in kWh/a | – | 2 250 | 2 650 | 2 850 |
-| Heizkosten-Einsparung in €/a | – | 248 | 291 | 313 |
-| CO₂-Einsparung in kg/a | – | 540 | 636 | 684 |
+### 2. Berechnung der $U_W$-Werte
 
-(Berechnungsbasis: $G_t = 3\,500$ Kd/a, Gas-Brennwert $\eta_a = 0{,}85$, Gaspreis 11 ct/kWh, CO₂-Faktor Erdgas 240 g/kWh)
+Berechnet für jede eurer Varianten den $U_W$-Wert (vereinfacht mit Glas- und Rahmenanteil, ohne $\Psi_g$).
 
-Auffällig: Der Sprung von Variante 1 (2-fach modern) zu Variante 2 (3-fach Standard) bringt 400 kWh/a Mehr-Einsparung. Der Sprung von Variante 2 zu Variante 3 nur noch 200 kWh/a – der **Grenznutzen sinkt deutlich**. Premium lohnt energetisch kaum – aber beim Komfort und beim Schallschutz schon.
+Prüft für jede Variante:
 
-### Wirtschaftlichkeit
+- Ist die BAFA-Anforderung ($U_W \leq 0{,}95$) erfüllt?
+- Ist der GEG-Höchstwert ($U_W \leq 1{,}30$) eingehalten?
+- Was passiert bei größerem Rahmenanteil (z.B. bei den kleinen Fenstern im Bad oder Küche)?
 
-| Position | Variante 1 | Variante 2 | Variante 3 |
-|---|---|---|---|
-| Kosten ca. €/m² | 500 – 600 | 700 – 900 | 1 100 – 1 400 |
-| Kosten gesamt (13,4 m²) | ca. **7 400 €** | ca. **10 700 €** | ca. **16 800 €** |
-| BAFA-Förderung (20 % mit iSFP) | – (nicht förderfähig) | ca. 2 100 € | ca. 3 400 € |
-| Eigenanteil | ca. 7 400 € | ca. 8 600 € | ca. 13 400 € |
-| jährliche Einsparung | 248 € | 291 € | 313 € |
-| **statische Amortisation** | ≈ **30 Jahre** | ≈ **30 Jahre** | ≈ **43 Jahre** |
+### 3. Wirkung am Gesamtgebäude
 
-Drei Beobachtungen:
+Für jede Variante berechnet:
 
-1. **Variante 1 und 2 amortisieren sich praktisch gleich schnell** – obwohl Variante 2 teurer ist, ist sie auch förderfähig, und der Eigenanteilsunterschied schrumpft auf 1 200 €. Bei gleicher Amortisation ist Variante 2 die klar bessere Wahl (besserer U-Wert, Förderung mitgenommen, marktgängig).
-2. **Variante 3 amortisiert sich deutlich schlechter** – die ca. 4 800 € Mehrkosten gegenüber Variante 2 bringen nur 22 €/a mehr Einsparung. Energetisch ist das nicht zu rechtfertigen.
-3. **Im Vergleich zum Dach** (42 Jahre für die kleine Variante, 110 für die große) sind die Fenster **wirtschaftlich attraktiver** als das Dach. Das mag überraschen, weil Fenster pro Stück sehr teuer sind. Erklärung: Der $\Delta U$-Sprung beim Fenstertausch (2,80 → 0,80) ist viel größer als beim Dach (0,32 → 0,18).
+- Neuer Beitrag der Fenster zum $H_T$
+- Reduktion $\Delta H_T$ gegenüber dem Bestand
+- Jährliche Einsparung an Endenergie, Kosten und CO₂
 
-In der Beratung Schmitt ist die naheliegende Empfehlung daher **Variante 2 (3-fach Standard mit Kunststoffrahmen)** – das beste Verhältnis von Energieeinsparung, Förderfähigkeit und Komfortgewinn. Variante 3 nur, wenn Schallschutz oder Behaglichkeit besonders wichtig sind.
+### 4. Investition und Amortisation
+
+Für jede Variante:
+
+- Bruttoinvestition auf Basis der Preistabelle
+- BAFA-Förderung 20 % mit iSFP (nur wenn $U_W \leq 0{,}95$!)
+- Eigenanteil nach Förderung
+- Statische Amortisationszeit
+
+### 5. Vergleich und Bewertung
+
+Stellt eure Varianten in einer Bewertungsmatrix zusammen. Welche Kriterien gewichtet ihr wie?
+
+- Investitionshöhe / Eigenanteil
+- Amortisationszeit
+- CO₂-Einsparung
+- Komfortgewinn (Innenoberfläche, Schallschutz, Sicherheit)
+- Grenznutzen zwischen den Varianten – ab wann lohnt der Aufpreis für Premium?
+- Verlust an solaren Gewinnen bei Süd-Fenstern (qualitativ)
+
+### 6. Empfehlung
+
+Formuliert eine **schriftliche Empfehlung** an Familie Schmitt (5–10 Sätze), die
+
+- eine klare Handlungsempfehlung enthält (welche Variante, welche Rahmenwahl),
+- die wichtigsten fachlichen Argumente nennt,
+- auf mögliche Rückfragen der Familie vorbereitet ist (z.B. „Warum nicht die günstigste Variante?").
+
+## Fragen für eure Präsentation
+
+Die anderen Gruppen kennen das Kapitel nicht. Eure Präsentation sollte diese Fragen nachvollziehbar beantworten:
+
+- **Warum sind Fenster im $H_T$ so wirkungsvoll pro Quadratmeter?** ($U \cdot A$-Verhältnis)
+- **Was unterscheidet $U_g$, $U_f$ und $U_W$?**
+- **Welche Rolle spielt der $g$-Wert, und warum ist ein Fenster energetisch anders zu bewerten als ein Wandbauteil?**
+- **Welche Verfahrensvarianten habt ihr betrachtet und was ist eure Empfehlung?**
+- **Wie steht der Fenstertausch wirtschaftlich im Vergleich zu Dach, Keller und Anlagentechnik da?** (Ihr müsst dazu die Ergebnisse der anderen Gruppen aufnehmen.)
+- **Welche nicht-energetischen Argumente sind bei Fenstern besonders wichtig?**
+
+Plant außerdem 2–3 Minuten für Rückfragen und Diskussion ein.
 
 ## Verständnis-Check
 
@@ -204,11 +246,11 @@ In der Beratung Schmitt ist die naheliegende Empfehlung daher **Variante 2 (3-fa
 <p class="quiz__qtext">Ein Südfenster wird von alter 2-fach-Verglasung mit \(g = 0{,}75\) auf moderne 3-fach-Verglasung mit \(g = 0{,}50\) getauscht. Welche Aussage ist richtig?</p>
 <ul class="quiz__opts">
 <li>Die solaren Gewinne steigen, weil moderne Verglasungen besser dämmen.</li>
-<li>Die solaren Gewinne sinken um ein Drittel, der Verlust wird aber durch den besseren \(U_W\) überkompensiert.</li>
+<li>Die solaren Gewinne sinken um ein Drittel; ob der bessere \(U_W\) das überkompensiert, hängt von Ausrichtung und Verschattung ab.</li>
 <li>Solare Gewinne spielen für die Energiebilanz keine Rolle.</li>
 <li>Der \(g\)-Wert beschreibt nur die Lichtdurchlässigkeit, nicht die Wärme.</li>
 </ul>
-<div class="quiz__explain">Beim Wechsel von 2-fach Wärmeschutz auf 3-fach Wärmeschutz sinkt der \(g\)-Wert typisch von 0,65–0,75 auf etwa 0,50 – die solaren Gewinne nehmen also <strong>ab</strong>. Der bessere \(U_W\) überkompensiert das in fast allen Fällen, weil die Verluste an Wintertagen häufig sind, die solaren Gewinne dagegen nur bei direkter Sonneneinstrahlung. Bei einem ausgeprägt großen Südfenster im Niedrigenergiehaus kann die Bilanz allerdings sehr knapp werden.</div>
+<div class="quiz__explain">Beim Wechsel von 2-fach Wärmeschutz auf 3-fach Wärmeschutz sinkt der \(g\)-Wert typisch von 0,65–0,75 auf etwa 0,50 – die solaren Gewinne nehmen also <strong>ab</strong>. Der bessere \(U_W\) überkompensiert das in den meisten realistischen Konstellationen, weil die Winterverluste ganzjährig wirken. Bei großen Südfenstern in gut gedämmten Häusern kann die Bilanz allerdings sehr knapp werden.</div>
 </div>
 
 <div class="quiz__q" data-correct="3">
@@ -219,29 +261,18 @@ In der Beratung Schmitt ist die naheliegende Empfehlung daher **Variante 2 (3-fa
 <li>0,92 W/(m²·K)</li>
 <li>1,00 W/(m²·K)</li>
 </ul>
-<div class="quiz__explain">\(U_W = 0{,}70 \cdot 0{,}80 + 0{,}30 \cdot 1{,}20 = 0{,}56 + 0{,}36 = 0{,}92\) W/(m²·K). Das Fenster wäre GEG-konform (\(\leq 1{,}30\)), aber knapp <em>nicht</em> mehr BAFA-förderfähig (\(\leq 0{,}95\) wäre erfüllt, aber mit Glasrandwärmebrücke käme man darüber). In der Praxis lohnt es sich, entweder den Rahmen oder das Glas eine Stufe besser zu wählen.</div>
+<div class="quiz__explain">\(U_W = 0{,}70 \cdot 0{,}80 + 0{,}30 \cdot 1{,}20 = 0{,}56 + 0{,}36 = 0{,}92\) W/(m²·K). Das Fenster wäre GEG-konform (\(\leq 1{,}30\)), aber die BAFA-Grenze (\(\leq 0{,}95\)) ist ohne Glasrand-Wärmebrücke knapp erfüllt – mit realem \(\Psi_g\) würde es darüber liegen.</div>
 </div>
 
 <div class="quiz__q" data-correct="3">
-<p class="quiz__qtext">In welcher Reihenfolge sollte die <strong>Lage des Fensters in der Wand</strong> bei einer WDVS-Sanierung idealerweise angeordnet werden?</p>
+<p class="quiz__qtext">In welcher Lage sollte das Fenster bei einer WDVS-Sanierung idealerweise eingebaut werden?</p>
 <ul class="quiz__opts">
 <li>außenbündig zum Bestandsmauerwerk – damit die Lichtöffnung möglichst groß bleibt</li>
 <li>innenbündig zum Mauerwerk – damit die Laibung gut zugänglich ist</li>
 <li>in der Dämmebene des WDVS – damit die Laibung keine Wärmebrücke bildet</li>
 <li>auf halber Wandstärke – das ist Standard nach DIN</li>
 </ul>
-<div class="quiz__explain">Das Fenster gehört in die <strong>Dämmebene</strong>. Sitzt es außenbündig am alten Mauerwerk, ist die Laibung kalt, und es kommt zu Wärmebrücken, Tauwasser und Schimmel. Bei der Fenstersanierung nach einem WDVS muss das Fenster in die Dämmschicht <strong>versetzt</strong> werden – mit einer Konsole, die das Eigengewicht trägt. Das ist konstruktiv aufwändig, aber bauphysikalisch zwingend.</div>
-</div>
-
-<div class="quiz__q" data-correct="2">
-<p class="quiz__qtext">Bei Familie Schmitt amortisiert sich die 3-fach-Standard-Variante in ca. 30 Jahren – die Premium-Variante in ca. 43 Jahren. Welche Empfehlung ist <strong>sachlich</strong> die naheliegende?</p>
-<ul class="quiz__opts">
-<li>Premium, weil der \(U_W\)-Wert besser ist.</li>
-<li>Standard, weil die Mehrkosten gegenüber Premium energetisch nicht zu rechtfertigen sind – außer Schallschutz oder Behaglichkeit hat besondere Priorität.</li>
-<li>Variante 1 (2-fach modern), weil sie am billigsten ist.</li>
-<li>Gar kein Tausch, weil sich Fenster nie rechnen.</li>
-</ul>
-<div class="quiz__explain">Die Mehrkosten für Premium gegenüber Standard betragen rund 4 800 €, der Mehrnutzen 22 €/a – das wird sich rein energetisch nicht rechnen. Variante 2 (3-fach Standard) trifft den Sweet Spot: deutlich besser als 2-fach modern, BAFA-förderfähig, marktgängige Lösung. Variante 1 ist die schwächste Wahl, weil sie nicht BAFA-förderfähig ist und sich trotzdem nicht besser amortisiert. Premium ist eine Option, wenn besondere Anforderungen vorliegen.</div>
+<div class="quiz__explain">Das Fenster gehört in die <strong>Dämmebene</strong>. Sitzt es außenbündig am alten Mauerwerk, ist die Laibung kalt, und es kommt zu Wärmebrücken, Tauwasser und Schimmel. Bei der Fenstersanierung nach einem WDVS muss das Fenster in die Dämmschicht <strong>versetzt</strong> werden – mit einer Konsole, die das Eigengewicht trägt.</div>
 </div>
 
 <div class="quiz__q" data-correct="3">
@@ -252,37 +283,34 @@ In der Beratung Schmitt ist die naheliegende Empfehlung daher **Variante 2 (3-fa
 <li>die Strahlungstemperatur der Innenoberfläche und das damit verbundene Komfort- und Schimmelrisiko</li>
 <li>die Investitionskosten</li>
 </ul>
-<div class="quiz__explain">An einem 2-fach-Bestandsfenster mit \(U_W = 2{,}8\) ist die Innenoberfläche bei –10 °C Außentemperatur nur etwa 12 °C kalt – man <strong>spürt</strong> die Kälte, auch wenn die Raumluft 21 °C hat. Bei einem 3-fach-Fenster mit \(U_W = 0{,}8\) liegt die Innenseite bei rund 18 °C – fast Wandniveau. Das schlägt sich nicht im \(H_T\) nieder, aber massiv im Wohngefühl und in der Schimmelvermeidung an der Laibung. Investitionskosten und Glasdämmwirkung sind klassische Rechengrößen, graue Energie ist relevant, aber selten beratungsentscheidend.</div>
+<div class="quiz__explain">An einem 2-fach-Bestandsfenster mit \(U_W = 2{,}8\) ist die Innenoberfläche bei –10 °C Außentemperatur nur etwa 12 °C kalt – man <strong>spürt</strong> die Kälte, auch wenn die Raumluft 21 °C hat. Bei einem 3-fach-Fenster mit \(U_W = 0{,}8\) liegt die Innenseite bei rund 18 °C – fast Wandniveau. Das schlägt sich nicht im \(H_T\) nieder, aber massiv im Wohngefühl und in der Schimmelvermeidung an der Laibung.</div>
 </div>
 
 </div>
 
-## Im Unterricht besprechen
+## Weiterführende Fragen für die Diskussion
 
 <div class="discuss">
 
 <div class="discuss__item discuss__item--reflect">
 <span class="discuss__tag">Reflexion</span>
-<p>Beim Dach war die Amortisation 42–110 Jahre, beim Fenster 30 Jahre. Warum ist die wirtschaftliche Logik beim Fenstertausch <em>besser</em>, obwohl die Investition pro Quadratmeter sehr viel höher ist?</p>
-<p class="discuss__hint">Stichwort: \(\Delta U\). Beim Dach geht es von 0,32 auf 0,18 (Sprung 0,14), beim Fenster von 2,80 auf 0,80 (Sprung 2,00). Der <em>relative</em> Sprung ist beim Fenster fast 15-mal so groß – und damit die Energieeinsparung pro investiertem Euro.</p>
+<p>Bevor ihr das Kapitel bearbeitet habt: Wie hättet ihr die Rolle der Fenster in einer Sanierung eingeschätzt – „großes Thema" oder „Nebensache"? Was war der wichtigste Aha-Moment während eurer Arbeit?</p>
 </div>
 
 <div class="discuss__item discuss__item--debate">
 <span class="discuss__tag">Diskussion</span>
-<p>Im Beratungsgespräch sagt Herr Schmitt: „<em>Die Fenster sind ja gerade mal 30 Jahre alt. Die halten doch noch. Ist es nicht Verschwendung, jetzt schon zu tauschen?</em>" Welche fachlichen und welche emotionalen Aspekte spielen in dieser Aussage zusammen, und wie reagiert ihr darauf?</p>
-<p class="discuss__hint">Sachlich: Fenster sind ein Marktprodukt mit hoher Innovationsgeschwindigkeit – ein 1990er-Fenster ist <em>technisch</em> alt. „Hält noch" stimmt für Mechanik, nicht für Energieperformance. Emotional: Wegwerfen funktionierender Dinge fühlt sich falsch an. Lösung: Den Zusammenhang mit Wärmepumpe, Komfort und Schimmelvermeidung erklären. Vorhandene Fenster werden bei guten Anbietern recyclebar entsorgt.</p>
+<p>Im Beratungsgespräch sagt Herr Schmitt: „<em>Die Fenster sind ja gerade mal 30 Jahre alt. Die halten doch noch. Ist es nicht Verschwendung, jetzt schon zu tauschen?</em>" Wie reagiert ihr fachlich – und wie <em>emotional angemessen</em>?</p>
+<p class="discuss__hint">Sachlich: Fenster sind ein Produkt mit hoher Innovationsgeschwindigkeit – ein 1990er-Fenster ist <em>technisch</em> alt. „Hält noch" stimmt für Mechanik, nicht für Energieperformance. Emotional: Wegwerfen funktionierender Dinge fühlt sich falsch an. Lösung: Zusammenhang mit Wärmepumpe, Komfort und Schimmelvermeidung erklären; Rahmen und Beschlag lassen sich meist recyclen.</p>
 </div>
 
 <div class="discuss__item discuss__item--debate">
 <span class="discuss__tag">Diskussion</span>
 <p>Eine Beratungskundin lebt in einer stark verkehrsbelasteten Wohnstraße. Sie will eigentlich nur „normale neue Fenster". Im Angebot sind 3-fach Schallschutz-Fenster der Klasse SK4 (45 dB Reduktion) für ca. 25 % Aufpreis enthalten. Würdet ihr das aktiv empfehlen – obwohl die Kundin nicht danach gefragt hat? Wo verläuft die Grenze zwischen guter Beratung und Verkaufsoptimierung?</p>
-<p class="discuss__hint">Das ist eine Berufsethik-Frage, nicht nur eine Sachfrage. Eine Beraterin <em>muss</em> auf Schallschutzpotenziale hinweisen, wenn die Situation es nahelegt – sonst beraten sie unvollständig. Sie <em>darf</em> nicht den Eindruck erwecken, eine teurere Variante sei zwingend. Die Trennlinie: transparent über Funktionen und Kosten informieren, Entscheidung der Kundin überlassen.</p>
+<p class="discuss__hint">Das ist eine Berufsethik-Frage, nicht nur eine Sachfrage. Eine Beraterin <em>muss</em> auf Schallschutzpotenziale hinweisen, wenn die Situation es nahelegt – sonst berät sie unvollständig. Sie <em>darf</em> nicht den Eindruck erwecken, eine teurere Variante sei zwingend. Trennlinie: transparent über Funktionen und Kosten informieren, Entscheidung der Kundin überlassen.</p>
 </div>
 
 </div>
 
 ---
 
-Damit sind drei der vier Phase-2-Bauteile durchgerechnet: WDVS (Phase 1), Dach und Fenster. Das letzte Hüllbauteil ist die Kellerdecke – der größte Einzelposten im aktuellen \(H_T\) der Schmitts, und gleichzeitig das Bauteil mit der vielleicht eindeutigsten Sanierungsempfehlung.
-
-→ Weiter zu [Keller & Bodenplatte](keller.md)
+→ Weiter zu [Keller & Bodenplatte](keller.md) · [Anlagentechnik](anlagentechnik.md) · oder zurück zur [Phase 2 – Übersicht](uebersicht.md)
