@@ -168,16 +168,30 @@ Diese Seite bündelt alle Formeln und Standardwerte aus dem Kurs an einer Stelle
 | Wärmepumpentarif | ca. 25 – 28 ct/kWh |
 | Holzpellets | ca. 7 ct/kWh |
 
-**BAFA-Förderung BEG-EM (Bundesförderung für effiziente Gebäude – Einzelmaßnahmen, Stand 2026):**
+**BAFA-Förderung BEG-EM Hülle & Anlagentechnik (Stand nach Reform 21.07.2026):**
 
 | Maßnahme | Grundförderung | mit iSFP-Bonus |
 |---|---|---|
 | Außenwand $U \leq 0{,}20$ W/(m²·K) | 15 % | 20 % |
 | Dachdämmung $U \leq 0{,}14$ W/(m²·K) | 15 % | 20 % |
 | Fenster $U_W \leq 0{,}95$ W/(m²·K) | 15 % | 20 % |
-| Wärmepumpe (im Bestand) | 30 % + Klimabonus | bis 70 % |
+| Kellerdeckendämmung $U \leq 0{,}25$ W/(m²·K) | 15 % | 20 % |
+| Lüftungsanlage mit Wärmerückgewinnung | 15 % | 20 % |
+| Heizungsoptimierung (hydraul. Abgleich, Pumpen) | 15 % | 20 % |
 
-Höchstgrenze förderfähige Kosten: 60 000 €/WE (mit iSFP), sonst 30 000 €/WE.
+Höchstgrenze förderfähige Kosten (Hülle): 60 000 €/WE (mit iSFP), sonst 30 000 €/WE.
+
+**KfW-458-Förderung BEG-EM Heizungstausch (Stand nach Reform 21.07.2026):**
+
+| Baustein | Satz | Voraussetzung |
+|---|---|---|
+| Grundförderung | 30 % | jede förderfähige WP, Biomasse-Heizung, Wärmenetzanschluss |
+| Klimageschwindigkeitsbonus | +16 % | Selbstnutzer, Austausch alter Öl-/Kohle-/Etagen-/Nachtspeicher-Heizung (jedes Alter) oder Gas-/Biomasse-Heizung ≥ 20 Jahre |
+| Einkommensbonus (≤ 30 T€) | +40 % | Selbstnutzer, zu versteuerndes Haushaltseinkommen |
+| Einkommensbonus (≤ 40 T€) | +30 % | " |
+| Einkommensbonus (≤ 50 T€) | +10 % | " |
+
+Deckelung Gesamt-Fördersatz: 80 % (bei Einkommen ≤ 30 T€) sonst 70 %. Höchstgrenze förderfähige Kosten (Heizung): **28 000 €/WE**. Der Klimageschwindigkeitsbonus schmilzt ab 01.02.2027 um 4 Prozentpunkte je Halbjahr ab und entfällt zum 01.08.2028. Der Effizienzbonus (5 %) ist seit 21.07.2026 ersatzlos entfallen.
 
 ## Ökologische Bewertung
 

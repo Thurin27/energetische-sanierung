@@ -147,8 +147,9 @@ Zusammengefasst, was ihr über den Anlagen-Zustand wisst:
 - **Strompreis WP-Tarif**: 28 ct/kWh
 - **Gaspreis**: 11 ct/kWh
 - **CO₂-Faktor**: Erdgas 240 g/kWh, Strom-Mix DE 2026 ca. 350 g/kWh (fallend)
-- **BAFA-Förderung Wärmepumpe im Bestand**: 30 % Grundförderung + 30 % Klimabonus für Austausch alter Gasheizung + 5 % Effizienzbonus möglich → **bis 70 %**
-- **Alternativ**: neuer Gasbrennwertkessel als Vergleichsbasis, Investition ca. 10 000 €, keine Förderung mehr für Gas allein
+- **KfW-458-Förderung Wärmepumpe** (Stand seit 21.07.2026): 30 % Grundförderung + 16 % Klimageschwindigkeitsbonus für Austausch einer ≥ 20 Jahre alten Gasheizung, gedeckelt auf 70 % (bzw. 80 % bei niedrigem Einkommen), auf **28 000 €** förderfähige Kosten pro Wohneinheit
+- **Wichtig zum Klimageschwindigkeitsbonus**: Er verlangt eine **funktionstüchtige** Altheizung. Bei einem endgültig ausgefallenen Kessel gerät der Bonus in der Praxis in Streit – für die Schmitts also mit dem Fachbetrieb klären, ob der aktuelle Kessel noch als „reparaturbedürftig aber betriebsfähig" gilt. Der Bonus sinkt ab 01.02.2027 halbjährlich um 4 Prozentpunkte und entfällt zum 01.08.2028.
+- **Alternativ**: neuer Gasbrennwertkessel als Vergleichsbasis, Investition ca. 10 000 €, keine Bundesförderung mehr für reines Gas
 
 ## Schlüsselberechnung
 
@@ -181,6 +182,7 @@ Wählt aus den Wärmepumpen-Bauarten **zwei sinnvolle Varianten** für den Fall 
 - Welche Bauart scheidet für die Schmitts von vornherein aus? Warum?
 - Wählt ihr eine Konservative (JAZ 3,0) und eine Optimierte (JAZ 3,5–4,0)?
 - Zieht ihr eine Hybridlösung (WP + Gasspitzenlast) in Betracht? Wann wäre die sinnvoll?
+- Vergesst nicht: Welchen **Fördersatz** könnt ihr für die Schmitts realistisch ansetzen? Für die Schmitts als Standard-Familie mit zu versteuerndem Einkommen deutlich über 50 000 € **entfällt der Einkommensbonus**. Es bleiben Grundförderung (30 %) und – falls die Voraussetzungen greifen – Klimageschwindigkeitsbonus (16 %).
 
 ### 2. Berechnung des Strombedarfs
 
@@ -204,8 +206,8 @@ Berechnet für jede Variante:
 Für jede Variante:
 
 - Investition Luft-Wasser: 25 000 – 40 000 €; Sole-Wasser (mit Bohrung): 35 000 – 55 000 €
-- BAFA-Förderung: 55 – 70 % (je nach Klimabonus und Effizienzbonus) auf max. 30 000 € förderfähige Kosten
-- Eigenanteil nach Förderung
+- KfW-458-Förderung: 30 % Grundförderung + 16 % Klimageschwindigkeitsbonus (bei erfüllten Voraussetzungen) = **46 %** im Standardfall; mit Einkommensbonus bis 70 % (bzw. 80 %) möglich – jeweils auf max. **28 000 €** förderfähige Kosten
+- Eigenanteil nach Förderung (auch die Kosten oberhalb des 28 000 €-Deckels tragen die Schmitts selbst)
 - Statische Amortisation gegen den Alternativ-Kessel (neuer Gas-Brennwert ca. 10 000 €, dann fortlaufende Gaskosten)
 
 ### 5. Ergänzende Systeme abwägen
@@ -293,7 +295,7 @@ Plant außerdem 2–3 Minuten für Rückfragen und Diskussion ein.
 <li>Weil Wärmepumpen kein CO₂ ausstoßen.</li>
 <li>Weil der Strom-Mix in Deutschland mit steigendem EE-Anteil weiter dekarbonisiert wird, während Erdgas dauerhaft 240 g CO₂/kWh emittiert.</li>
 <li>Weil die JAZ automatisch mit der Zeit steigt.</li>
-<li>Weil die BAFA-Förderung CO₂-Zertifikate kompensiert.</li>
+<li>Weil die KfW-Förderung CO₂-Zertifikate kompensiert.</li>
 </ul>
 <div class="quiz__explain">Der Strom-Mix in Deutschland ist von 480 g CO₂/kWh (2015) über ca. 380 g (2025) auf voraussichtlich unter 200 g (2030) und 100–150 g (2035) fallend. Eine Wärmepumpe „profitiert" von jedem Ausbauschritt der erneuerbaren Energien – sie wird automatisch klimafreundlicher. Erdgas bleibt dagegen bei 240 g CO₂/kWh, unabhängig von der Energiewende.</div>
 </div>
@@ -302,7 +304,7 @@ Plant außerdem 2–3 Minuten für Rückfragen und Diskussion ein.
 <p class="quiz__qtext">Was ist der wichtigste Grund, die <strong>Anlagentechnik nach der Hüllensanierung</strong> zu entscheiden und nicht davor?</p>
 <ul class="quiz__opts">
 <li>Weil die notwendige Vorlauftemperatur der Heizung von der Qualität der Dämmung abhängt und damit auch die Anlagenauslegung.</li>
-<li>Weil die BAFA-Förderung die zeitliche Reihenfolge vorschreibt.</li>
+<li>Weil die KfW-Förderung die zeitliche Reihenfolge vorschreibt.</li>
 <li>Weil die Dämmung sonst die Wärmepumpe verdeckt.</li>
 <li>Weil man dann zwei Handwerker-Termine kombinieren kann.</li>
 </ul>
@@ -329,6 +331,12 @@ Plant außerdem 2–3 Minuten für Rückfragen und Diskussion ein.
 <div class="discuss__item discuss__item--reflect">
 <span class="discuss__tag">Reflexion</span>
 <p>Die Wärmepumpe ist gesellschaftlich stark umstritten – Berichte über hohe Stromkosten, laute Außengeräte, gescheiterte Installationen halten sich hartnäckig. Welche eurer Vorurteile über Wärmepumpen haben sich durch die Arbeit an diesem Kapitel bestätigt, welche relativiert oder aufgelöst?</p>
+</div>
+
+<div class="discuss__item discuss__item--debate">
+<span class="discuss__tag">Diskussion</span>
+<p>Familie Schmitts Gaskessel ist <strong>defekt</strong>. Der Klimageschwindigkeitsbonus (aktuell 16 %, immerhin ca. 4 500 € Zuschuss) verlangt jedoch eine <em>funktionstüchtige</em> Altheizung. Wie geht ihr als Beratungsteam damit um? Rät ihr zur schnellen Reparatur „auf Notfall-Niveau", damit der Kessel für den Förderantrag noch als funktionstüchtig gilt? Oder ist das rechtlich und ethisch fragwürdig?</p>
+<p class="discuss__hint">Die KfW akzeptiert „reparaturbedürftig, aber betriebsfähig" als funktionstüchtig – das gibt Spielraum, aber keinen Freibrief. Ein komplett tot gehender Kessel führt real zum Verlust des Bonus. Gleichzeitig ist der Bonus einer der wichtigsten Hebel für die Wirtschaftlichkeit. Fachliche und ethische Trennlinie: Beratung informiert über Fristen und Bedingungen, treibt aber nicht in Grauzonen. Die zeitliche Degression (halbjährlich −4 Prozentpunkte ab 02/2027) macht das Zögern zusätzlich teuer.</p>
 </div>
 
 <div class="discuss__item discuss__item--debate">

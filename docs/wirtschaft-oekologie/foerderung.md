@@ -16,11 +16,14 @@ Die **Bundesförderung für effiziente Gebäude (BEG)** ist das zentrale Förder
 
 | Programm | Träger | Was wird gefördert? |
 |---|---|---|
-| **BEG WG** (Wohngebäude) | KfW | Komplettsanierung zum Effizienzhaus (zinsgünstiger Kredit + Tilgungszuschuss) |
+| **BEG WG** (Wohngebäude, Komplettsanierung) | KfW | Sanierung zum Effizienzhaus (zinsgünstiger Kredit + Tilgungszuschuss) |
 | **BEG NWG** (Nichtwohngebäude) | KfW | Analog für Bürogebäude, Schulen etc. |
-| **BEG EM** (Einzelmaßnahmen) | **BAFA** | Einzelne Sanierungsschritte als direkter Zuschuss |
+| **BEG EM Hülle & Anlagentechnik** (Einzelmaßnahmen ohne Heizung) | **BAFA** | Dämmung, Fenster, Lüftung, Heizungsoptimierung – als Zuschuss |
+| **BEG EM Heizung** (Einzelmaßnahme Heizungstausch) | **KfW (Programm 458)** | Wärmepumpe, Biomasse, Wärmenetzanschluss – als Zuschuss |
 
-Für Familie Schmitt ist **BEG EM** der relevante Pfad — sie wollen keine Komplettsanierung zum Effizienzhaus 55 oder 40 angehen, sondern in Phasen vorgehen: zuerst die Außenwand, später Dach, Fenster, Heizung.
+Für Familie Schmitt ist **BEG EM** der relevante Pfad — sie wollen keine Komplettsanierung zum Effizienzhaus 55 oder 40 angehen, sondern in Phasen vorgehen: zuerst die Außenwand (BAFA), später Dach/Fenster/Kellerdecke (BAFA), und die neue Heizung (KfW 458).
+
+Seit 2024 sind Hülle und Heizung getrennt: **BAFA** wickelt die Zuschüsse für Dämmung, Fenster und Lüftung ab, **KfW** die Heizungsförderung. Beide Programme können parallel beantragt und kombiniert werden, aber jedes hat eigene Anträge, Fristen und Konditionen.
 
 ## BAFA-Förderung für Einzelmaßnahmen (BEG EM)
 
@@ -38,6 +41,31 @@ Stand 2026 gilt für die Außenwanddämmung als BEG-EM-Maßnahme:
 | **Pflicht** | Energieeffizienz-Experte (dena-Liste) |
 
 **Wichtig:** Der Förderantrag muss **vor Auftragsvergabe** beim BAFA gestellt werden. Wer den Vertrag mit dem Handwerksbetrieb vor der Antragstellung schließt, verliert den Förderanspruch komplett.
+
+## KfW-Förderung für den Heizungstausch (BEG EM Heizung, KfW 458)
+
+Seit 2024 wird der Heizungstausch als eigenes Einzelmaßnahmen-Programm über die **KfW (Programm 458)** abgewickelt. Zum **21. Juli 2026** trat eine reformierte Richtlinie in Kraft; die aktuellen Sätze:
+
+| Baustein | Satz | Voraussetzung |
+|---|---|---|
+| **Grundförderung** | 30 % | jede förderfähige Wärmepumpe (JAZ ≥ 3,0), Biomasse-Heizung oder Wärmenetzanschluss |
+| **Klimageschwindigkeitsbonus** | + 16 % | Selbstnutzer und Austausch einer funktionstüchtigen Öl-, Kohle-, Etagen- oder Nachtspeicherheizung (jedes Alter) oder einer mind. 20 Jahre alten Gas- oder Biomasseheizung |
+| **Einkommensbonus** | + 40 / 30 / 10 % | zu versteuerndes Haushaltseinkommen ≤ 30 / 40 / 50 T€ |
+| **Förderfähige Kosten** | bis 28 000 € | erste Wohneinheit |
+| **Deckelung** | max. 70 % (bzw. 80 % bei Einkommen ≤ 30 T€) | Baustein-Summe wird gekappt |
+| **Maximaler Zuschuss** | 19 600 € (bei 70 %) bzw. 22 400 € (bei 80 %) | |
+
+**Abschmelzung des Klimageschwindigkeitsbonus:** Der Bonus sinkt ab dem 01.02.2027 um 4 Prozentpunkte je Halbjahr und entfällt vollständig zum 01.08.2028. Der **Effizienzbonus** (5 % für natürliche Kältemittel/Erdwärme) ist seit 21.07.2026 ersatzlos entfallen.
+
+**Wichtige Voraussetzungen:**
+
+- Antrag **vor** Auftragserteilung (analog zu BAFA)
+- Gerät muss auf der BAFA-Liste förderfähiger Wärmepumpen stehen
+- Selbstnutzer-Nachweis für die Boni (Meldebescheinigung, Grundbuchauszug)
+- Bei Klimageschwindigkeitsbonus: alte Heizung muss **funktionstüchtig** sein — bei bereits ausgefallenen Kesseln entstehen in der Praxis Streitfälle
+- Bei Wärmepumpen: technische Mindestanforderungen (JAZ ≥ 3,0, Schallgrenzen) durch Energieeffizienz-Experte bestätigt
+
+Der iSFP-Bonus (5 %) gilt bei der KfW 458 **nicht** — er ist ein reines BAFA-Element für Hüllenmaßnahmen.
 
 ## Der individuelle Sanierungsfahrplan (iSFP)
 
