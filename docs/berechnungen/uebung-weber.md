@@ -262,13 +262,4 @@ Ordnet die verbleibenden Bauteile nach ihrem prozentualen Anteil am **noch verbl
 
 ---
 
-## Zur gemeinsamen Besprechung
 
-In der 30-minütigen Videokonferenz-Besprechung schauen wir uns an:
-
-- **Aufgabe 1 & 2**: Wo lagen typische Rechenfehler? Wo hilft die Formelsammlung, wo nicht?
-- **Aufgabe 3**: Der $F_x$-Faktor für die Kellerdecke – hat er alle richtig eingerechnet? Und die Trennwände zum Nachbarn – wer hat sie fälschlich mitgerechnet?
-- **Aufgabe 4 & 5**: Der Weg von $\Delta H_T$ über Endenergie zur Wirtschaftlichkeit – die kompletten Rechenschritte einmal durchgehen.
-- **Aufgabe 6**: Vergleich zu Familie Schmitt – bei den Schmitts war das Dach schon teilsaniert; bei Frau Weber steht es ganz am Anfang. Was heißt das für die Priorisierung? Wie erklärt ihr Frau Weber (die ja keine Fachfrau ist), warum das Dach jetzt vor Fenster oder Kellerdecke kommen sollte?
-
-Bringt eure Ergebnisse und eure offenen Fragen mit.
