@@ -107,5 +107,10 @@ nav:
       - Übungsaufgaben Fall Weber: berechnungen/uebung-weber.md
       - Online-Rechner: rechner/index.md
   - Erneuerbare Energien: erneuerbare-energien/index.md
+  - Industriebau: industriebau/index.md
+  - Klausur:
+      - Themenübersicht: klausur/themenuebersicht.md
+      - Terminübersicht: klausur/terminuebersicht.md
   - Termine:
       - Distanz 26.09.: termine/2026-09-26.md
+      - Distanz 03.11.: termine/2026-11-03.md
