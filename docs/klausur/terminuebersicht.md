@@ -1,6 +1,6 @@
 # Terminübersicht bis zur Klausur
 
-Vom heutigen Stand bis zur Klausur am 10.12. haben wir vier reguläre Termine, zusätzlich die Klausur selbst. Diese Seite ist die Fahrplan-Übersicht — was wird wann gemacht, was solltet ihr vorher mitbringen, und welches konkrete Lernziel steht am Ende jedes Termins.
+Vom heutigen Stand bis zur Klausur am 12.12. haben wir vier reguläre Termine, zusätzlich die Klausur selbst. Diese Seite ist die Fahrplan-Übersicht — was wird wann gemacht, was solltet ihr vorher mitbringen, und welches konkrete Lernziel steht am Ende jedes Termins.
 
 ## Übersicht
 
@@ -10,7 +10,7 @@ Vom heutigen Stand bis zur Klausur am 10.12. haben wir vier reguläre Termine, z
 | **Sa 07.11.** | Präsenz | 180 min | Vertiefung Phase 1 (Bauphysik + Energiebilanz) |
 | **Sa 21.11.** | Präsenz | 180 min | Vertiefung Phase 2 + integriertes Fallbeispiel |
 | **Di 01.12.** | Distanz, asynchron | 180 min | Probeklausur |
-| **Mi 10.12.** | **Klausur** | 120 min | |
+| **Sa 12.12.** | **Klausur** | 120 min | |
 
 Die Reihenfolge ist bewusst: erst Themenbegründung, dann vertieft nach den Grundrechen­kompetenzen, dann Anwendung im Komplett-Fall, dann Probe unter Klausurbedingungen.
 
@@ -94,13 +94,13 @@ Die Reihenfolge ist bewusst: erst Themenbegründung, dann vertieft nach den Grun
 **Lernziel am Ende des Termins:**
 
 - Ihr habt den Klausur-Zeitdruck einmal unter realistischen Bedingungen erlebt
-- Ihr wisst, wo ihr Punkte verliert – und könnt bis zum 10.12. gezielt daran arbeiten
+- Ihr wisst, wo ihr Punkte verliert – und könnt bis zum 12.12. gezielt daran arbeiten
 
 **Rückmeldung:** Falls aus eurer Selbstkontrolle Fragen entstehen oder Lücken sichtbar werden, schreibt mir in IServ. Ich greife das individuell oder in einer kurzen Online-Sprechstunde vor der Klausur auf.
 
 ---
 
-## 10.12. — Klausur
+## 12.12. — Klausur
 
 **Format:** Präsenz, 120 min.
 

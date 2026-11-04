@@ -79,6 +79,11 @@ Wir betrachten eine fiktive mittelständische Metallverarbeitung. Zahlen, mit de
 - Erdgaspreis Industrie: 8 ct/kWh (günstiger als Haushalt wegen Mengenrabatten)
 - Strompreis Industrie: 22 ct/kWh
 - CO₂-Faktor Erdgas: 240 g/kWh
+- **Wärmeerzeugung Raumwärme**: Gas-Hallenheizkessel, Anlagenwirkungsgrad $\eta_{a,Kessel} = 0{,}85$
+- **Wärmeerzeugung Prozesswärme**: direkt gasbefeuerte Härteöfen, Wirkungsgrad $\eta_{Ofen} = 0{,}65$ (hohe Abgasverluste bei hohen Prozesstemperaturen)
+
+!!! note "Nutzwärme vs. Gasverbrauch"
+    Raum- und Prozesswärmebedarf sind als **Nutzwärme** angegeben. Für Kosten und CO₂ zählt aber die eingekaufte **Endenergie** (Erdgas): $E_{Gas} = Q_{Nutz} / \eta$ — genau wie im Wohnbau.
 
 ## Aufgabe 1 – Abwärmenutzung Druckluftkompressor
 
@@ -129,7 +134,7 @@ Die Geschäftsführung der Müller GmbH überlegt zwei alternative Sanierungsma�
 - **Variante A**: Dämmung des Hallendachs (bisher ungedämmte Trapezblech-Konstruktion). Erwartete Reduktion der Raumwärme: **50 %**. Investition ca. 60 000 €.
 - **Variante B**: Abwärmerückgewinnung aus den Härteöfen. Erwartete Reduktion der Prozesswärme: **20 %**. Investition ca. 80 000 €.
 
-**a) Berechnet die jährliche Energieeinsparung** jeder Variante (in kWh/a).
+**a) Berechnet die jährliche Nutzwärme-Einsparung** jeder Variante (in kWh/a).
 
 Raumwärme Bestand: 200 MWh/a = 200 000 kWh/a → Einsparung Variante A?
 
@@ -147,44 +152,69 @@ Prozesswärme Bestand: 500 MWh/a = 500 000 kWh/a → Einsparung Variante B?
   </div>
 </div>
 
-**b) Statische Amortisation** beider Varianten (bei 8 ct/kWh Gas und ohne Förderung)?
+**b) Berechnet die jährliche Erdgas-Einsparung** (Endenergie) jeder Variante. Beachtet, dass Raum- und Prozesswärme von unterschiedlichen Anlagen erzeugt werden.
+
+Variante A (Hallenheizkessel, $\eta_{a,Kessel} = 0{,}85$):
+
+<div class="task-input" data-target="117647" data-tolerance="0.05" data-unit="kWh/a" data-decimals="0">
+  <div class="task-input__hints">
+    <div class="task-input__hint">Tipp 1: Eingesparte Nutzwärme muss nicht mehr erzeugt werden — also spart ihr die zugehörige Endenergie: Nutzwärme / Wirkungsgrad.</div>
+    <div class="task-input__hint">Tipp 2: $\Delta E_{Gas,A} = 100\,000 / 0{,}85$.</div>
+  </div>
+</div>
+
+Variante B (Härteöfen, $\eta_{Ofen} = 0{,}65$):
+
+<div class="task-input" data-target="153846" data-tolerance="0.05" data-unit="kWh/a" data-decimals="0">
+  <div class="task-input__hints">
+    <div class="task-input__hint">Tipp 1: Gleiche Logik, aber mit dem Wirkungsgrad der Öfen.</div>
+    <div class="task-input__hint">Tipp 2: $\Delta E_{Gas,B} = 100\,000 / 0{,}65$.</div>
+  </div>
+</div>
+
+**c) Statische Amortisation** beider Varianten (bei 8 ct/kWh Gas und ohne Förderung)?
 
 Variante A:
 
-<div class="task-input" data-target="7.5" data-tolerance="0.10" data-unit="Jahre" data-decimals="1">
+<div class="task-input" data-target="6.4" data-tolerance="0.05" data-unit="Jahre" data-decimals="1">
   <div class="task-input__hints">
-    <div class="task-input__hint">Tipp 1: Kostenersparnis = Energieeinsparung × Gaspreis = 100 000 × 0,08 = 8 000 €/a.</div>
-    <div class="task-input__hint">Tipp 2: $T_{stat} = I / \Delta K = 60\,000 / 8\,000$.</div>
+    <div class="task-input__hint">Tipp 1: Kostenersparnis = Gaseinsparung × Gaspreis $\approx 117\,647 \cdot 0{,}08 \approx 9\,412$ €/a.</div>
+    <div class="task-input__hint">Tipp 2: $T_{stat} = I / \Delta K = 60\,000 / 9\,412$.</div>
   </div>
 </div>
 
 Variante B:
 
-<div class="task-input" data-target="10" data-tolerance="0.10" data-unit="Jahre" data-decimals="1">
+<div class="task-input" data-target="6.5" data-tolerance="0.05" data-unit="Jahre" data-decimals="1">
   <div class="task-input__hints">
-    <div class="task-input__hint">Tipp 1: Gleiche Logik. Investition 80 000 € / Ersparnis 8 000 €/a.</div>
+    <div class="task-input__hint">Tipp 1: Gleiche Logik: $\Delta K_B = 153\,846 \cdot 0{,}08$.</div>
+    <div class="task-input__hint">Tipp 2: $T_{stat} = 80\,000 / 12\,308$.</div>
   </div>
 </div>
 
 ??? success "Lösungsweg und Bewertung"
-    a) $\Delta E_A = 0{,}50 \cdot 200\,000 = 100\,000$ kWh/a (Raumwärme)
+    a) $\Delta Q_A = 0{,}50 \cdot 200\,000 = 100\,000$ kWh/a (Raumwärme)
 
-    $\Delta E_B = 0{,}20 \cdot 500\,000 = 100\,000$ kWh/a (Prozesswärme)
+    $\Delta Q_B = 0{,}20 \cdot 500\,000 = 100\,000$ kWh/a (Prozesswärme)
 
-    b) $\Delta K_A = \Delta K_B = 100\,000 \cdot 0{,}08 = 8\,000$ €/a
+    b) $\Delta E_{Gas,A} = 100\,000 / 0{,}85 \approx 117\,647$ kWh/a
 
-    $T_{stat,A} = 60\,000 / 8\,000 = 7{,}5$ Jahre
+    $\Delta E_{Gas,B} = 100\,000 / 0{,}65 \approx 153\,846$ kWh/a
 
-    $T_{stat,B} = 80\,000 / 8\,000 = 10{,}0$ Jahre
+    c) $\Delta K_A = 117\,647 \cdot 0{,}08 \approx 9\,412$ €/a → $T_{stat,A} = 60\,000 / 9\,412 \approx 6{,}4$ Jahre
 
-    **Erkenntnis:** Die beiden Maßnahmen bringen bei den Müllers die **gleiche absolute Energieeinsparung** (100 000 kWh/a), weil die Prozesswärme den dreimal größeren Grundbestand hat, aber nur eine 20-%-Einsparung mobilisiert wird — während die Hüllensanierung aus einer kleineren Basis die Hälfte rausholt.
+    $\Delta K_B = 153\,846 \cdot 0{,}08 \approx 12\,308$ €/a → $T_{stat,B} = 80\,000 / 12\,308 \approx 6{,}5$ Jahre
 
-    Rein wirtschaftlich ist Variante A (Hülle) günstiger. In der realen Priorisierung wird aber oft **Variante B zuerst** umgesetzt, weil:
+    **Erkenntnis 1:** Beide Maßnahmen bringen die **gleiche Nutzwärme-Einsparung** (100 000 kWh/a): Die Prozesswärme hat den 2,5-fach größeren Grundbestand, aber nur 20 % werden mobilisiert — die Hüllensanierung holt aus der kleineren Basis die Hälfte heraus.
 
-    - die Prozesswärme-Technik häufiger ohnehin modernisiert werden muss (Anlagenaustausch)
-    - Fördergelder für Prozessoptimierung (BAFA EEW-Modul 4, EnEfG-Pflichten) oft attraktiver sind als für Hüllensanierung
-    - der absolute Fußabdruck der Prozesse das Hauptproblem bleibt — hier ist der echte Hebel für die Dekarbonisierung
-    - die Hüllensanierung einer Produktionshalle während laufendem Betrieb logistisch anspruchsvoll ist
+    **Erkenntnis 2:** Beim **Gas** — und damit bei Kosten und CO₂ — liegt Variante B deutlich vorn, weil die Öfen mit schlechterem Wirkungsgrad arbeiten. Jede eingesparte kWh Prozesswärme spart rund 1,5 kWh Gas, jede eingesparte kWh Raumwärme nur knapp 1,2 kWh. Wer nur mit Nutzwärme rechnet, unterschätzt Maßnahmen an ineffizienten Erzeugern systematisch.
+
+    Bei der Amortisation liegen beide Varianten damit praktisch gleichauf (6,4 vs. 6,5 Jahre). In der realen Priorisierung spricht dann vieles für **Variante B zuerst**:
+
+    - die größere CO₂-Einsparung: $153\,846 \cdot 0{,}240 \approx 36{,}9$ t/a gegenüber $117\,647 \cdot 0{,}240 \approx 28{,}2$ t/a
+    - Fördergelder für Prozessoptimierung (BAFA EEW-Modul 4, EnEfG-Pflichten) sind oft attraktiver als für Hüllensanierung — mit Förderung kippt die Amortisation klar zugunsten von B
+    - die Prozesswärme-Technik muss häufiger ohnehin modernisiert werden (Anlagenaustausch)
+    - die Hüllensanierung einer Produktionshalle während laufendem Betrieb ist logistisch anspruchsvoll
 
     Für die Beratung: Im Industriebau ist die Reihenfolge selten „Hülle zuerst, dann Technik", wie im Wohnbau. Oft ist es umgekehrt — und manchmal wird die Hülle gar nicht angefasst, wenn die Raumwärme vernachlässigbar bleibt.
 
@@ -239,7 +269,7 @@ Variante B:
 <div class="discuss__item discuss__item--debate">
 <span class="discuss__tag">Diskussion</span>
 <p>Eine Beratungssituation: Die Müller GmbH hat 150 000 € für Energieeffizienz-Maßnahmen im nächsten Jahr budgetiert. Was empfehlt ihr auf Basis der Aufgaben 1 und 2 als <strong>Investitionsreihenfolge</strong>?</p>
-<p class="discuss__hint">Reihenfolge nach kurzen Amortisationen: Druckluft-Abwärme (1–2 Jahre, 8 000 €) → LED-Beleuchtung (meist 2–3 Jahre) → Prozesswärme-Rückgewinnung (10 Jahre) → Hülle (7,5 Jahre). Mit 150 000 € könnte ein Großteil parallel umgesetzt werden – die Reihenfolge zählt aber auch für die Erfahrung des Betriebs: früh erzielte Erfolge erhöhen die Bereitschaft für die größeren Investitionen.</p>
+<p class="discuss__hint">Reihenfolge nach kurzen Amortisationen: Druckluft-Abwärme (1–2 Jahre, 6 000–10 000 €) → LED-Beleuchtung (meist 2–3 Jahre) → Dachdämmung und Prozesswärme-Rückgewinnung (beide ca. 6,5 Jahre; bei der Abwägung entscheiden CO₂-Einsparung, Förderung und Betriebsablauf, siehe Aufgabe 2). Mit 150 000 € könnte ein Großteil parallel umgesetzt werden – die Reihenfolge zählt aber auch für die Erfahrung des Betriebs: früh erzielte Erfolge erhöhen die Bereitschaft für die größeren Investitionen.</p>
 </div>
 
 </div>

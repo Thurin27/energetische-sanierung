@@ -1,9 +1,9 @@
-# Themenübersicht zur Klausur am 10.12.
+# Themenübersicht zur Klausur am 12.12.
 
 Die Klausur deckt den gesamten Themenkomplex „Energetische Sanierung" ab, so wie wir ihn seit September bearbeitet haben – von den bauphysikalischen Grundlagen über die Energiebilanz bis zur Beratungspraxis. Diese Seite ist eure Übersicht für die Vorbereitung: welche Themenfelder sind klausurrelevant, was müsst ihr auswendig wissen, was dürft ihr aus der Formelsammlung entnehmen, und wo findet ihr pro Thema die passenden Übungen.
 
 !!! info "Formalia zur Klausur"
-    - **Datum:** 10.12.2026
+    - **Datum:** Samstag, 12.12.2026
     - **Dauer:** 120 Minuten
     - **Hilfsmittel:** Formelsammlung (die aus dieser Seite — Werkzeuge → [Formelsammlung](../berechnungen/formelsammlung.md)), Taschenrechner (nicht grafik- oder programmierbar)
     - **Nicht erlaubt:** Smartphone, Smartwatch, eigene Notizen
