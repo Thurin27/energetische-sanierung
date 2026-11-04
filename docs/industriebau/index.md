@@ -72,7 +72,7 @@ Wir betrachten eine fiktive mittelständische Metallverarbeitung. Zahlen, mit de
 
 - Produktionshalle 1 500 m², Büroanbau 200 m²
 - 15 Mitarbeiter, 1-Schicht-Betrieb (ca. 2 000 Produktionsstunden/a)
-- **Prozesswärmebedarf**: 500 MWh/a (Härterei, Entfettung, Trocknung) bei 80 °C
+- **Prozesswärmebedarf**: 500 MWh/a — bis ca. 850 °C (Härterei), 60–80 °C (Entfettung, Trocknung)
 - **Raumwärmebedarf**: 200 MWh/a (Halle + Büro)
 - **Stromverbrauch** gesamt: 350 MWh/a (davon Druckluftkompressor 120 MWh/a)
 - **Druckluftkompressor**: 30 kW Nennleistung, 4 000 Betriebsstunden/a
