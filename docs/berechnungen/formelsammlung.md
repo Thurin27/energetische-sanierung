@@ -128,10 +128,43 @@ Diese Seite bündelt alle Formeln und Standardwerte aus dem Kurs an einer Stelle
 | Anlagentyp | $\eta_a$ bzw. JAZ |
 |---|---|
 | Konstanttemperaturkessel (alt) | 0,75 |
-| Gas-Niedertemperaturkessel | 0,85 |
+| Gas- oder Öl-Niedertemperaturkessel | 0,85 |
 | Gas-Brennwertkessel | 0,95 |
 | Wärmepumpe Luft-Wasser (Bestand mit FBH) | JAZ 3,0 – 3,5 |
 | Wärmepumpe Sole-Wasser | JAZ 4,0 – 4,5 |
+
+## Anlagentechnik & Erneuerbare Energien
+
+→ Kapitel [Anlagentechnik](../phase2/anlagentechnik.md), [Fenster](../phase2/fenster.md), [Erneuerbare Energien](../erneuerbare-energien/index.md)
+
+| Größe | Formel | Einheit |
+|---|---|---|
+| Strombedarf einer Wärmepumpe | $W_{Strom} = \dfrac{Q_{Heiz}}{\text{JAZ}}$ | kWh/a |
+| Jahresertrag einer PV-Anlage | $E_{PV} = P_{Nenn} \cdot y_{spez}$ | kWh/a |
+| U-Wert eines Fensters | $U_W = \dfrac{A_g \cdot U_g + A_f \cdot U_f + l_g \cdot \Psi_g}{A_W}$ | W/(m²·K) |
+| U-Wert eines Fensters (vereinfacht, ohne Glasrand) | $U_W = \dfrac{A_g}{A_W} \cdot U_g + \dfrac{A_f}{A_W} \cdot U_f$ | W/(m²·K) |
+
+**Formelzeichen:**
+
+- $W_{Strom}$ – jährlicher Strombedarf der Wärmepumpe in kWh/a
+- $Q_{Heiz}$ – von der Wärmepumpe gelieferte Nutzwärme in kWh/a; bereitet die WP auch das Warmwasser, gilt $Q_{Heiz} = Q_H + Q_{WW}$
+- JAZ – Jahresarbeitszahl (Verhältnis von gelieferter Wärme zu eingesetztem Strom über ein ganzes Jahr; Werte siehe Tabelle Anlagenwirkungsgrade)
+- $E_{PV}$ – Jahresstromertrag der PV-Anlage in kWh/a
+- $P_{Nenn}$ – Nennleistung der PV-Anlage in kWp
+- $y_{spez}$ – spezifischer Jahresertrag in kWh/(kWp·a)
+- $U_g$, $U_f$ – U-Wert der Verglasung bzw. des Rahmens in W/(m²·K)
+- $A_g$, $A_f$, $A_W$ – Glasfläche, Rahmenfläche, gesamte Fensterfläche in m²
+- $l_g$ – Länge des Glasrands in m; $\Psi_g$ – Wärmebrückenverlustkoeffizient des Glasrandverbunds in W/(m·K)
+
+**Richtwerte Photovoltaik:**
+
+| Größe | Wert |
+|---|---|
+| spezifischer Jahresertrag $y_{spez}$ (NRW, Süddach 30–40°) | ca. 1 000 kWh/(kWp·a) |
+| spezifischer Jahresertrag Deutschland gesamt | ca. 900 – 1 100 kWh/(kWp·a) |
+| Eigenverbrauchsquote ohne Speicher | ca. 25 – 35 % |
+| Eigenverbrauchsquote mit Batteriespeicher | ca. 55 – 70 % |
+| Einspeisevergütung (Anlagen bis 10 kWp, 2026) | ca. 7,9 ct/kWh |
 
 ## Wirtschaftlichkeit
 
@@ -222,6 +255,7 @@ Deckelung Gesamt-Fördersatz: 80 % (bei Einkommen ≤ 30 T€) sonst 70 %. Höch
 | Heizöl | 320 |
 | Holzpellets | 25 – 60 |
 | Strom-Mix DE 2025 | 380 |
+| Strom-Mix DE 2026 | ca. 350 |
 | Strom-Mix DE 2030 (Prognose) | ca. 200 |
 | Strom-Mix DE 2035 (Prognose) | ca. 100 – 150 |
 
