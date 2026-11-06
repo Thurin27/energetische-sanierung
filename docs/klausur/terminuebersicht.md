@@ -24,7 +24,7 @@ Hier stehen alle Termine des Themenblocks an einer Stelle – was gemacht wurde,
 - **Übungsblatt 1 – Rechenfit:** sechs kurze Aufgaben zu den Rechenwegen, die in der Klausur immer wieder vorkommen (U-Wert, Dämmdicke, Wärmestrom, Kesseltausch, Amortisation, CO₂-Bilanz), dazu eine Fehlersuche in einer fremden Rechnung.
 - **Übungsblatt 2 – Fallaufgabe im Klausurformat:** 60 Minuten unter Klausurbedingungen, mit Anlagen, Ersatzwerten und Punkten. Anschließend gemeinsame Besprechung.
 
-**Mitbringen:** Taschenrechner, Formelsammlung (gern ausgedruckt, damit ihr das Nachschlagen unter Zeitdruck übt), Karopapier.
+**Mitbringen:** Taschenrechner, Formelsammlung, Karopapier.
 
 **Danach könnt ihr:** die klassischen Rechenwege der Phase 1 sicher anwenden und kennt eure eigenen typischen Fehlerquellen.
 
