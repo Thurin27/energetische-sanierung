@@ -1,5 +1,14 @@
 # Übungsaufgaben – Fall Frau Weber
 
+!!! tip "Weitere Übungsaufgaben im IServ-Klassenordner"
+    Die Übungsblätter für die Präsenztermine und die Probeklausur gibt es nicht auf dieser Website, sondern auf Papier und als Datei im **IServ-Klassenordner**. So existiert jedes Blatt nur in einer Fassung.
+
+    - **07.11.:** Übungsblatt 1 (Rechenfit) und Übungsblatt 2 (Fallaufgabe im Klausurformat)
+    - **21.11.:** Übungsblatt 3 (Wärmepumpe und Förderung), Übungsblatt 4 (Fallaufgabe) und Rollenkarten
+    - **01.12.:** Probeklausur mit Erwartungshorizont zur Selbstkontrolle
+
+    Die Lösungen kommen jeweils nach der Besprechung dazu. Wann was dran ist, steht unter [Termine](../klausur/terminuebersicht.md).
+
 !!! info "Zur Übung"
     **Bearbeitungszeit:** ca. 60 Minuten in Einzelarbeit · **Besprechung:** ca. 30 Minuten gemeinsam per Videokonferenz.
 

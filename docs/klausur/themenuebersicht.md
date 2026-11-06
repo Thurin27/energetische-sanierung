@@ -222,4 +222,4 @@ Wer Faktenwissen und Nachschlagewissen klar trennt, spart Klausurzeit – und mu
 
 Habt ihr konkrete Fragen vom Typ „Was muss ich zum Thema XY alles auswendig wissen?" – stellt sie **am Ende des Distanztermins am 03.11.** in der Rückmeldeschleife (Block C). Ich greife häufig gestellte Fragen in den Präsenzterminen am 07.11. und 21.11. auf.
 
-Nicht ausweichen vor der Frage: Wenn ihr euch bei einem Themenfeld unsicher fühlt, meldet das zurück. Ihr habt in den nächsten vier Terminen genug Zeit, Lücken zu schließen — aber nur, wenn wir sie kennen.
+Nicht ausweichen vor der Frage: Wenn ihr euch bei einem Themenfeld unsicher fühlt, meldet das zurück. Ihr habt in den verbleibenden Terminen genug Zeit, Lücken zu schließen — aber nur, wenn wir sie kennen.

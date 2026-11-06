@@ -1,129 +1,66 @@
-# Terminübersicht bis zur Klausur
+# Termine bis zur Klausur
 
-Vom heutigen Stand bis zur Klausur am 12.12. haben wir vier reguläre Termine, zusätzlich die Klausur selbst. Diese Seite ist die Fahrplan-Übersicht — was wird wann gemacht, was solltet ihr vorher mitbringen, und welches konkrete Lernziel steht am Ende jedes Termins.
+Hier stehen alle Termine des Themenblocks an einer Stelle – was gemacht wurde, was als Nächstes kommt und was ihr jeweils mitbringen solltet. Die Übungsblätter für die Präsenztermine und die Probeklausur bekommt ihr auf Papier; dieselben Dateien liegen im **IServ-Klassenordner** (siehe [Übungsaufgaben](../berechnungen/uebung-weber.md)).
 
 ## Übersicht
 
-| Datum | Format | Dauer | Thema |
+| Datum | Format | Thema | Material |
 |---|---|---|---|
-| **Di 03.11.** | Distanz, teilsynchron | 180 min | Themenübersicht Klausur + neues Thema Industriebau |
-| **Sa 07.11.** | Präsenz | 180 min | Vertiefung Phase 1 (Bauphysik + Energiebilanz) |
-| **Sa 21.11.** | Präsenz | 180 min | Vertiefung Phase 2 + integriertes Fallbeispiel |
-| **Di 01.12.** | Distanz, asynchron | 180 min | Probeklausur |
-| **Sa 12.12.** | **Klausur** | 120 min | |
-
-Die Reihenfolge ist bewusst: erst Themenbegründung, dann vertieft nach den Grundrechen­kompetenzen, dann Anwendung im Komplett-Fall, dann Probe unter Klausurbedingungen.
-
----
-
-## 03.11. — Themenübersicht Klausur + Industriebau
-
-**Format:** Distanz, teilsynchron. Drei VK-Fenster zwischen eigenständigen Arbeitsphasen.
-
-**Ablauf:** siehe [Arbeitsauftrag 03.11.](../termine/2026-11-03.md).
-
-**Was ihr mitbringen solltet:** nichts. Alle Materialien sind verlinkt.
-
-**Lernziel am Ende des Termins:**
-
-- Ihr habt eine klare Vorstellung, was in der Klausur geprüft wird — welche Themenfelder, in welcher Tiefe, mit welcher Gewichtung
-- Ihr habt die Industriebau-Grundlagen (Prozesswärme, Abwärmerückgewinnung, KWK) als neues Themenfeld bearbeitet
-- Ihr habt eure Themenwünsche für die Präsenztermine im Plenum formuliert — damit die kommenden Termine zielgenau auf eure Unsicherheiten eingehen können
+| Di 22.09. | Distanz | Übungsaufgaben Phase 1 | [Fall Weber](../berechnungen/uebung-weber.md) |
+| Sa 26.09. | Distanz, asynchron | Handout Präsentationen, Erneuerbare Energien | [Arbeitsauftrag 26.09.](../termine/2026-09-26.md) |
+| Sa 10.10. | Präsenz | Präsentationen Phase 2, Verfahrensvergleich | [Verfahrensvergleich](../phase2/vergleich.md) |
+| Di 03.11. | Distanz, teilsynchron | Themenübersicht Klausur, Industriebau | [Arbeitsauftrag 03.11.](../termine/2026-11-03.md) |
+| **Sa 07.11.** | Präsenz | Rechentraining Bauphysik und Energiebilanz | Übungsblätter 1 und 2 (IServ) |
+| **Sa 21.11.** | Präsenz | Wärmepumpe, Förderung, Beratungsgespräch | Übungsblätter 3 und 4, Rollenkarten (IServ) |
+| **Di 01.12.** | Distanz, asynchron | Probeklausur | Probeklausur (IServ) |
+| **Sa 12.12.** | **Klausur** | 120 Minuten | [Themenübersicht](themenuebersicht.md) |
 
 ---
 
-## 07.11. — Vertiefung Phase 1 (Bauphysik + Energiebilanz)
+## Sa 07.11. – Rechentraining Bauphysik und Energiebilanz
 
-**Format:** Präsenz, 180 min.
+**Format:** Präsenz, 180 Minuten.
 
-**Vorläufige Struktur** (wird durch eure Rückmeldungen aus dem 03.11. verfeinert):
+- **Übungsblatt 1 – Rechenfit:** sechs kurze Aufgaben zu den Rechenwegen, die in der Klausur immer wieder vorkommen (U-Wert, Dämmdicke, Wärmestrom, Kesseltausch, Amortisation, CO₂-Bilanz), dazu eine Fehlersuche in einer fremden Rechnung.
+- **Übungsblatt 2 – Fallaufgabe im Klausurformat:** 60 Minuten unter Klausurbedingungen, mit Anlagen, Ersatzwerten und Punkten. Anschließend gemeinsame Besprechung.
 
-- **Block A (45 min) — Fragestunde**: Durchgehen der häufigsten Punkte aus der 03.11.-Plenumsrunde. Hier können wir Themenfelder nochmal von Grund auf erklären, wenn gewünscht.
-- **Block B (90 min) — Gemeinsames Rechnen**: Zwei bis drei anspruchsvolle Beispielaufgaben an der Tafel bzw. am Smartboard, bei denen ihr aktiv mitarbeitet. Typische Fälle: Reihenmittelhaus mit mehreren F_x-Werten, kombinierte Dämmaufbauten, komplette Energiebilanz vorher/nachher.
-- **Block C (45 min) — Blitz-Quiz + Fehlerquellen-Analyse**: Gemeinsam die häufigsten Fehler bei Rechenaufgaben identifizieren (Einheiten, F_x vergessen, η_a-Umrechnung, Wärmebrücken-Zuschlag).
+**Mitbringen:** Taschenrechner, Formelsammlung (gern ausgedruckt, damit ihr das Nachschlagen unter Zeitdruck übt), Karopapier.
 
-**Was ihr mitbringen solltet:**
-
-- Taschenrechner
-- Formelsammlung (gern ausgedruckt – damit ihr das Blättern einmal unter Klausurbedingungen übt)
-- Notizblock oder Übungsheft
-
-**Lernziel am Ende des Termins:**
-
-- Ihr seid routiniert in den klassischen Rechenwegen der Phase 1
-- Ihr kennt die typischen Fehlerquellen bei euch selbst und wisst, worauf ihr achten müsst
+**Danach könnt ihr:** die klassischen Rechenwege der Phase 1 sicher anwenden und kennt eure eigenen typischen Fehlerquellen.
 
 ---
 
-## 21.11. — Vertiefung Phase 2 + integriertes Fallbeispiel
+## Sa 21.11. – Wärmepumpe, Förderung und Beratung
 
-**Format:** Präsenz, 180 min.
+**Format:** Präsenz, 180 Minuten.
 
-**Vorläufige Struktur:**
+- **Übungsblatt 3:** Jahresarbeitszahl und Vorlauftemperatur, KfW-458-Förderung für verschiedene Haushalte, Antragsfristen.
+- **Übungsblatt 4 – Fallaufgabe:** ein neuer Beratungsfall von der Fensterwahl bis zum Vergleich Wärmepumpe gegen Wärmenetz.
+- **Rollenspiel:** Beratungsgespräch in euren Dreiergruppen mit Rollenkarten.
 
-- **Block A (60 min) — Wärmepumpe nochmal durchgearbeitet**: JAZ-Rechnung, Vorlauftemperatur-Zusammenhang, Fördersätze KfW 458 inklusive Klimageschwindigkeitsbonus und Einkommensbonus. Fallstricke beim defekten Kessel. Kurze Rechenaufgaben zur Festigung.
-- **Block B (90 min) — Integriertes Fallbeispiel**: Ein **neuer Beratungsfall** (dritte Familie neben Schmitt und Weber), bei dem ihr alle Themenfelder einmal in Reihe durchlaufen müsst: U-Wert, H_T, Verfahrenswahl, Wirtschaftlichkeit, Förderung, Empfehlung. Das Fallbeispiel ist klar als Übung in der [Werkzeuge-Rubrik](../berechnungen/formelsammlung.md) zu finden, damit es sich nicht mit den Hauptfällen vermischt.
-- **Block C (30 min) — Beratungsgespräch-Simulation oder Diskussion**: Wir inszenieren eine Beratungssituation (Rollenspiel oder Plenumsdiskussion) zu einem strittigen Punkt des Fallbeispiels.
+**Mitbringen:** Taschenrechner, Formelsammlung, eure Präsentationsergebnisse vom 10.10.
 
-**Was ihr mitbringen solltet:**
-
-- Taschenrechner, Formelsammlung, Notizen
-- Eure Präsentationsergebnisse vom 10.10. (als Erinnerungs­stütze zur Phase 2)
-
-**Lernziel am Ende des Termins:**
-
-- Ihr beherrscht den Durchlauf vom U-Wert bis zur Beratungsempfehlung an einem komplett neuen Fall
-- Ihr könnt eine Beratungssituation nicht nur rechnerisch, sondern auch kommunikativ einordnen
+**Danach könnt ihr:** einen Fall vom U-Wert bis zur Heizungsempfehlung durchrechnen und die Empfehlung so erklären, dass ein Laie sie versteht.
 
 ---
 
-## 01.12. — Probeklausur
+## Di 01.12. – Probeklausur
 
-**Format:** Distanz, asynchron, 180 min.
+**Format:** Distanz, asynchron, 180 Minuten.
 
-**Struktur:**
+- **120 Minuten Probeklausur** am Stück – gleiches Format und gleiche Hilfsmittel wie in der echten Klausur, aber anderer Fall und andere Schwerpunkte. Stellt euch einen Wecker und arbeitet ohne Unterbrechung.
+- **60 Minuten Selbstkontrolle** mit dem Erwartungshorizont. Er liegt ebenfalls im IServ-Klassenordner – öffnet ihn erst, wenn die 120 Minuten vorbei sind.
 
-- **Teil A (120 min) — Probeklausur unter realistischen Bedingungen**: Gleiches Format und gleiche Dauer wie die echte Klausur (120 min). Andere Zahlen, andere Schwerpunkte als die echte Klausur — ihr sollt nicht auswendig lernen, sondern das Format und den Zeitdruck üben.
-- **Teil B (60 min) — Selbstkontrolle mit ausführlichem Erwartungshorizont**: Nach Abgabe erhaltet ihr den Erwartungshorizont mit Punkteverteilung und typischen Fehlerquellen. Ihr kontrolliert selbst und notiert, wo bei euch Lücken sind.
+**Mitbringen:** nur die erlaubten Hilfsmittel (Formelsammlung, Taschenrechner) und eine ruhige Umgebung.
 
-**Was ihr mitbringen solltet:**
-
-- Nur die Hilfsmittel, die auch in der echten Klausur erlaubt sind (Formelsammlung, Taschenrechner – kein Smartphone, keine eigenen Notizen)
-- Ruhige Umgebung für die vollen 120 min
-
-**Lernziel am Ende des Termins:**
-
-- Ihr habt den Klausur-Zeitdruck einmal unter realistischen Bedingungen erlebt
-- Ihr wisst, wo ihr Punkte verliert – und könnt bis zum 12.12. gezielt daran arbeiten
-
-**Rückmeldung:** Falls aus eurer Selbstkontrolle Fragen entstehen oder Lücken sichtbar werden, schreibt mir in IServ. Ich greife das individuell oder in einer kurzen Online-Sprechstunde vor der Klausur auf.
+**Danach könnt ihr:** einschätzen, wo ihr steht, und die verbleibende Zeit gezielt nutzen. Fragen aus der Selbstkontrolle schickt ihr mir über IServ.
 
 ---
 
-## 12.12. — Klausur
+## Sa 12.12. – Klausur
 
-**Format:** Präsenz, 120 min.
+**Format:** Präsenz, 120 Minuten. Themen, Gewichtung und Hilfsmittel stehen in der [Themenübersicht](themenuebersicht.md).
 
-**Formalia:** siehe [Themenübersicht Klausur](themenuebersicht.md).
+**Mitbringen:** Taschenrechner (nicht grafik- oder programmierbar), Schreibzeug, Formelsammlung – gern mit eigenen Markierungen, die beim schnellen Nachschlagen helfen.
 
-Bringt mit:
-
-- Taschenrechner (nicht grafik- oder programmierbar)
-- Schreibzeug (Kugelschreiber, zusätzlich Bleistift für Skizzen zulässig)
-- **Formelsammlung** – gern vorbereitet mit Markierungen und Notizen, die euch beim schnellen Nachschlagen helfen. Die Formelsammlung bleibt euer Hauptwerkzeug.
-
-Nicht mitbringen:
-
-- Smartphone, Smartwatch
-- Eigene Notizen oder Lehrbücher
-- Eigene Rechenblätter
-
----
-
-## Was ich von euch brauche
-
-- **03.11., in VK-Fenster 3 (Plenum)**: eure Themenwünsche für die Vertiefung
-- **Fortlaufend bis zur Klausur**: kurze Rückmeldungen in IServ, wenn euch beim selbstständigen Üben Fragen kommen. Ich sammle und greife wiederkehrende Fragen in den Präsenzterminen und ggf. in einer kurzen Online-Sprechstunde vor der Klausur auf
-- **01.12. nach der Probeklausur**: eine ehrliche Selbsteinschätzung, wo ihr steht
-
-Ihr habt in diesen vier Terminen alle Chancen, die Lücken zu schließen. Nutzt sie.
+**Nicht mitbringen:** Smartphone, Smartwatch, eigene Notizen, Lehrbücher.
